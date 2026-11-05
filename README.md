@@ -9,7 +9,6 @@
 | Backend | Express 5, TypeScript, Prisma 7 |
 | Database tugas | PostgreSQL pada Neon melalui `@prisma/adapter-neon` |
 | Mode latihan | PostgreSQL lokal berbasis PGlite |
-| Dasar dokumentasi | Source pada branch `main`, commit `cebb598`, 5 November 2026 |
 
 ## Daftar isi
 
