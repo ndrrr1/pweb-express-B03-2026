@@ -1,0 +1,1443 @@
+{
+  "info": {
+    "name": "MLBB Shop - 28 Testcase Teruji",
+    "description": "28 testcase sesuai tabel Urutan Testcase. Jalankan `npx tsx prisma/seed.ts` dulu, lalu kirim request berurutan dari 01 sampai 28.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "3438e5e0-3478-4ca9-8830-85fbbe91e87a"
+  },
+  "item": [
+    {
+      "name": "01. Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/health",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "health"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "GET /health\nHasil yang benar: 200"
+      },
+      "id": "645d8475-f192-40ec-b9ae-953696efc0c6",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "f81a7e76-c928-4e8a-8bf2-c4903582055f",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "02. Daftar Hero Role Marksman",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/heroes?role=MARKSMAN&limit=5",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "heroes"
+          ],
+          "query": [
+            {
+              "key": "role",
+              "value": "MARKSMAN"
+            },
+            {
+              "key": "limit",
+              "value": "5"
+            }
+          ],
+          "variable": []
+        },
+        "description": "GET /api/heroes?role=MARKSMAN&limit=5\nHasil yang benar: 200, totalItems 20"
+      },
+      "id": "c0edbe33-19ea-413f-a855-ff8e20b4272f",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "f6dc9a0d-f316-442f-beff-c0f80a5e0653",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.metadata?.totalItems).to.eql(20);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "03. Cari Hero 'la'",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/heroes?search=la",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "heroes"
+          ],
+          "query": [
+            {
+              "key": "search",
+              "value": "la"
+            }
+          ],
+          "variable": []
+        },
+        "description": "GET /api/heroes?search=la\nHasil yang benar: 200, totalItems 10"
+      },
+      "id": "03387d08-8410-4e72-b59e-cefbdf429bf2",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "f379bd90-b88e-4694-8453-9b8e4db19123",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.metadata?.totalItems).to.eql(10);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "04. Detail Hero Layla",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/heroes/18",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "heroes",
+            "18"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "GET /api/heroes/18\nHasil yang benar: 200, Layla dengan 11 skin"
+      },
+      "id": "6123782c-8030-40af-91e1-d7c95a2dfe04",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "49492de1-868b-451e-896d-1e1c260548b3",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.data?.name).to.eql(\"Layla\");",
+              "  pm.expect(body.data?.skins?.length).to.eql(11);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "05. Detail Hero Tidak Ada",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/heroes/999",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "heroes",
+            "999"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "GET /api/heroes/999\nHasil yang benar: 404"
+      },
+      "id": "50a802fe-6616-4b18-801d-c02cc33f0639",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "2fa094e2-4951-4a35-bec1-4e6d665f5822",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 404', function(){ pm.response.to.have.status(404); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(false);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "06. Tambah Hero Collie",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/heroes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "heroes"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/heroes\nHasil yang benar: 201, id 134",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Collie\",\n  \"role\": \"MAGE\",\n  \"lane\": \"MID\",\n  \"releaseYear\": 2026,\n  \"priceBP\": 32000,\n  \"priceDiamond\": 599\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "bede44af-2498-4128-a44d-6e289d5cd49e",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "736fe6f0-ad18-4e68-9d63-c77ce7c7d693",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 201', function(){ pm.response.to.have.status(201); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.data?.id).to.eql(134);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "07. Tambah Hero Nama Sudah Ada",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/heroes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "heroes"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/heroes\nHasil yang benar: 409",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Collie\",\n  \"role\": \"MAGE\",\n  \"lane\": \"MID\",\n  \"releaseYear\": 2026,\n  \"priceBP\": 32000,\n  \"priceDiamond\": 599\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "2b3e8dbf-b985-4325-bc2d-24f962c93b9a",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "1d97c0bc-ddd3-4e3a-b2db-6cee224c7aa3",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 409', function(){ pm.response.to.have.status(409); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(false);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "08. Tambah Hero Data Kurang",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/heroes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "heroes"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/heroes\nHasil yang benar: 400",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Kaiden\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "27433a77-37c9-449d-90fb-6ab7d4c596da",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "fc97aab3-d10c-40aa-9257-49cbc8ac629c",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 400', function(){ pm.response.to.have.status(400); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(false);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "09. Daftar Skin Layla",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/skins?heroId=18",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "skins"
+          ],
+          "query": [
+            {
+              "key": "heroId",
+              "value": "18"
+            }
+          ],
+          "variable": []
+        },
+        "description": "GET /api/skins?heroId=18\nHasil yang benar: 200, totalItems 11"
+      },
+      "id": "1357f085-1a8e-4684-8e2d-c46bdd79ea05",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "9e6e5e16-8d19-4340-91d1-c50988f5e9df",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.metadata?.totalItems).to.eql(11);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "10. Daftar Skin Rarity GRAND",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/skins?rarity=GRAND",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "skins"
+          ],
+          "query": [
+            {
+              "key": "rarity",
+              "value": "GRAND"
+            }
+          ],
+          "variable": []
+        },
+        "description": "GET /api/skins?rarity=GRAND\nHasil yang benar: 200, totalItems 98"
+      },
+      "id": "2603e5d4-fad4-4bf3-85dc-fd91a6f6ea53",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "79be77f1-cc96-4ede-8766-9da7977610cf",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.metadata?.totalItems).to.eql(98);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "11. Detail Skin Silverbolt Raiko",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/skins/891",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "skins",
+            "891"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "GET /api/skins/891\nHasil yang benar: 200, Silverbolt Raiko (Selena)"
+      },
+      "id": "44580b6c-039a-4ded-a8c8-80eb624307ec",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "a0b4c964-3007-4fc0-b3a0-2f09c46a74b9",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.data?.name).to.eql(\"Silverbolt Raiko\");",
+              "  pm.expect(body.data?.hero?.name).to.eql(\"Selena\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "12. Buat Player JunglerMalam",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/players",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/players\nHasil yang benar: 201, id 4",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nickname\": \"JunglerMalam\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "cbe58c06-8e50-4b01-a94a-a66c110e74e4",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "c0b21e7c-9286-4abc-9425-eabc25b74cf6",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 201', function(){ pm.response.to.have.status(201); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.data?.id).to.eql(4);",
+              "  pm.expect(body.data?.bp).to.eql(10000);",
+              "  pm.expect(body.data?.diamond).to.eql(0);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "13. Buat Player Nickname Dipakai",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/players",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/players\nHasil yang benar: 409",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nickname\": \"ArekITS\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "5ded1288-49a5-4dc6-ab02-c7a7fcab1d1a",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "cded45bd-eea0-4a67-95d5-01e390fc511f",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 409', function(){ pm.response.to.have.status(409); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(false);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "14. Top Up 706 Diamond",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/players/3/topup",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "3",
+            "topup"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/players/3/topup\nHasil yang benar: 200, diamond 706",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"amount\": 706\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "65ff6ca0-99c7-4b2e-8c63-6ea708d8aba5",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "64d2fcda-16c3-49ef-abc7-1d2734860817",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.data?.diamond).to.eql(706);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "15. Top Up Amount Negatif",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/players/3/topup",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "3",
+            "topup"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/players/3/topup\nHasil yang benar: 400",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"amount\": -10\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "1f36b92e-346e-47ee-8fa2-0a3a89e45c58",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "fbde182a-c3b2-4e13-bade-c49a5bc783ed",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 400', function(){ pm.response.to.have.status(400); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(false);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "16. Match Menang (WIN)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/players/3/matches",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "3",
+            "matches"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/players/3/matches\nHasil yang benar: 200, bp 10300",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"result\": \"WIN\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "c32d6285-1017-4d5f-b2c1-16690a796110",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "39c906ab-e9a2-4020-bee4-18b43f3847ef",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.data?.bp).to.eql(10300);",
+              "  pm.expect(body.data?.bpEarned).to.eql(300);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "17. Beli Freya Pakai BP (Gagal)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/players/3/heroes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "3",
+            "heroes"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/players/3/heroes\nHasil yang benar: 400 (Freya tanpa harga BP)",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"heroId\": 22,\n  \"currency\": \"BP\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "7fb54e2e-77d5-4c25-b9c4-781f26527148",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "60168b3c-afb5-4742-ac5f-c4fa3b566d7d",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 400', function(){ pm.response.to.have.status(400); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(false);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "18. Beli Freya Pakai Diamond",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/players/3/heroes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "3",
+            "heroes"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/players/3/heroes\nHasil yang benar: 201, diamond 107",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"heroId\": 22,\n  \"currency\": \"DIAMOND\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "dd9cf98c-aa8f-471e-94cc-852dce32999c",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "820bf85d-050b-4f1a-a08f-16ff0e2f8231",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 201', function(){ pm.response.to.have.status(201); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.data?.balance?.diamond).to.eql(107);",
+              "  pm.expect(body.data?.pricePaid).to.eql(599);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "19. Beli Layla Pakai BP",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/players/3/heroes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "3",
+            "heroes"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/players/3/heroes\nHasil yang benar: 201, bp 8300",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"heroId\": 18,\n  \"currency\": \"BP\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "03bfb6f1-8d2a-4b4f-95d5-9f38d3f22082",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "d0df02c6-934a-4965-9703-5f11327fbd57",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 201', function(){ pm.response.to.have.status(201); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.data?.balance?.bp).to.eql(8300);",
+              "  pm.expect(body.data?.pricePaid).to.eql(2000);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "20. Beli Layla Lagi (Sudah Punya)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/players/3/heroes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "3",
+            "heroes"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/players/3/heroes\nHasil yang benar: 409 (sudah punya Layla)",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"heroId\": 18,\n  \"currency\": \"DIAMOND\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "9b40a115-78db-4aa3-8ba7-9133455f908b",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "afa837b1-a7b4-44bc-8698-fbff27312fc8",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 409', function(){ pm.response.to.have.status(409); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(false);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "21. Beli Hirara BP Kurang",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/players/1/heroes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "1",
+            "heroes"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "POST /api/players/1/heroes\nHasil yang benar: 400 (BP kurang)",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"heroId\": 133,\n  \"currency\": \"BP\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "1164ab07-cd03-41b5-aac9-3353ef5b527a",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "f1a0f792-2e7b-4c50-8d0d-6770af92549f",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 400', function(){ pm.response.to.have.status(400); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(false);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "22. Detail Player MageSurabaya",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/players/3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "3"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "GET /api/players/3\nHasil yang benar: 200, punya Freya dan Layla"
+      },
+      "id": "77d6e405-895b-41ac-b3b4-81ac961c22c0",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "21c9e097-2a30-4716-b601-bf0c4a884f25",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.data?.heroes?.map(h => h.heroId).sort((a,b)=>a-b)).to.eql([18,22]);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "23. Ganti Nickname Jadi MageITS",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/players/3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "3"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "PATCH /api/players/3\nHasil yang benar: 200",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nickname\": \"MageITS\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "803d6b08-3db8-4cd9-85a4-a64d047fc686",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "a0d84776-d853-4b7f-9f83-6887cbc3f8b0",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.data?.nickname).to.eql(\"MageITS\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "24. Ganti Nickname Dipakai",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:3000/api/players/3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "3"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "PATCH /api/players/3\nHasil yang benar: 409",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nickname\": \"ArekITS\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "id": "ab7ee3cc-9208-469e-b434-9384f28c8327",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "64b644bf-706e-4924-bebd-80d1c33b23f1",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 409', function(){ pm.response.to.have.status(409); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(false);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "25. Statistik Toko",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/statistics",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "statistics"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "GET /api/statistics\nHasil yang benar: 200, sesuai gambar Fitur 7"
+      },
+      "id": "4763a31a-7558-4afa-84b0-dbf4bdd6b493",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "3cd6e511-5cfd-4994-b9ca-c0e9a9fb98b9",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "  pm.expect(body.data?.totalPlayers).to.eql(4);",
+              "  pm.expect(body.data?.totalHeroesOwned).to.eql(6);",
+              "  pm.expect(body.data?.totalDiamond).to.eql(3074);",
+              "  pm.expect(body.data?.mostOwnedHero).to.eql({heroId:18,name:\"Layla\",owners:2});",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "26. Hapus Player JunglerMalam",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/players/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "4"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "DELETE /api/players/4\nHasil yang benar: 200"
+      },
+      "id": "e25e4f2e-fd42-4ccb-8bf0-7ae1474bc4d2",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "e7c010fc-61b8-4d67-83b5-ba404bdb5336",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', function(){ pm.response.to.have.status(200); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(true);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "27. Detail Player Terhapus",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/players/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "players",
+            "4"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "GET /api/players/4\nHasil yang benar: 404"
+      },
+      "id": "37c30007-57d4-4923-b1f8-3fbdb4281436",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "1d26f9f4-6457-40a1-9663-8f1f646d3e4d",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 404', function(){ pm.response.to.have.status(404); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(false);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "28. Endpoint Tidak Ada",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/ngawur",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "ngawur"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "description": "GET /api/ngawur\nHasil yang benar: 404"
+      },
+      "id": "3be983a3-68a4-4b07-983e-db7d90b8ba92",
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "5dd7ef96-f8e0-4e35-a142-f06fa0a35f9a",
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 404', function(){ pm.response.to.have.status(404); });",
+              "pm.test('Response dan hasil sesuai modul', function(){",
+              "  const body=pm.response.json();",
+              "  pm.expect(body.status).to.eql(false);",
+              "  pm.expect(body.message).to.be.a(\"string\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "auth": {
+    "type": "noauth"
+  }
+}

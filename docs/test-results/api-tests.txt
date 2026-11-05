@@ -1,0 +1,61 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> mlbb-shop-modul-4@1.1.0 test
+> prisma generate && node --import tsx --test --test-concurrency=1 tests/api.test.ts tests/startup.test.ts
+
+Loaded Prisma config from prisma.config.ts.
+
+Prisma schema loaded from prisma/schema.prisma.
+
+✔ Generated Prisma Client (7.10.1) to ./src/generated/prisma in 74ms
+
+✔ 01. Health Check (4009.946811ms)
+✔ 02. Daftar Hero Role Marksman (31.279404ms)
+✔ 03. Cari Hero 'la' (20.855383ms)
+✔ 04. Detail Hero Layla (17.707114ms)
+✔ 05. Detail Hero Tidak Ada (7.822619ms)
+✔ 06. Tambah Hero Collie (29.770501ms)
+✔ 07. Tambah Hero Nama Sudah Ada (6.918295ms)
+✔ 08. Tambah Hero Data Kurang (4.631855ms)
+✔ 09. Daftar Skin Layla (18.869287ms)
+✔ 10. Daftar Skin Rarity GRAND (14.14803ms)
+✔ 11. Detail Skin Silverbolt Raiko (10.075913ms)
+✔ 12. Buat Player JunglerMalam (12.28551ms)
+✔ 13. Buat Player Nickname Dipakai (6.360223ms)
+✔ 14. Top Up 706 Diamond (15.022377ms)
+✔ 15. Top Up Amount Negatif (2.832965ms)
+✔ 16. Match Menang (WIN) (8.580985ms)
+✔ 17. Beli Freya Pakai BP (Gagal) (11.317734ms)
+✔ 18. Beli Freya Pakai Diamond (28.70092ms)
+✔ 19. Beli Layla Pakai BP (23.268389ms)
+✔ 20. Beli Layla Lagi (Sudah Punya) (8.629918ms)
+✔ 21. Beli Hirara BP Kurang (9.603882ms)
+✔ 22. Detail Player MageSurabaya (11.940686ms)
+✔ 23. Ganti Nickname Jadi MageITS (10.453283ms)
+✔ 24. Ganti Nickname Dipakai (7.650279ms)
+✔ 25. Statistik Toko (20.661061ms)
+✔ 26. Hapus Player JunglerMalam (12.064569ms)
+✔ 27. Detail Player Terhapus (4.672605ms)
+✔ 28. Endpoint Tidak Ada (3.271742ms)
+✔ pagination dan filter memakai count yang sama; pencarian tidak peka kapital (22.016454ms)
+✔ query tidak valid dan skin tidak ada dibalas dengan format gagal (11.254555ms)
+✔ validasi berjalan sesuai prioritas pemeriksaan pada modul (26.249532ms)
+✔ topup dan match validasi angka serta LOSE menghasilkan 100 BP (36.563301ms)
+✔ pembelian gagal tidak mengubah saldo atau jumlah kepemilikan (24.933954ms)
+✔ request serentak untuk hero yang sama hanya mendebit saldo sekali (66.376826ms)
+✔ pembelian dua hero serentak tidak membuat saldo negatif (51.200351ms)
+✔ cascade PlayerHero→Player dan Skin→Hero berjalan pada database (25.57927ms)
+✔ JSON rusak dibalas 400 dan frontend tersedia (6.720003ms)
+Port 35973 sedang dipakai. Mencoba port 35974...
+✔ entry lokal berjalan tanpa .env, transaksi tersimpan setelah restart, reset hanya lokal (7508.322623ms)
+✔ port terpakai dialihkan dan collection mengikuti port aktif (26.260888ms)
+✔ pengunci mencegah dua server menulis database lokal bersamaan (6.342848ms)
+✔ pengunci dari proses yang sudah mati dapat dipulihkan tanpa menghapus data (7.189319ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 41
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13366.970422

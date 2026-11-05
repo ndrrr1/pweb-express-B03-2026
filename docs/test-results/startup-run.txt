@@ -1,0 +1,262 @@
+(node:6) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Memasang dependency dari package-lock.json. Tunggu sampai selesai...
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+added 236 packages in 29s
+Membuat Prisma Client...
+Loaded Prisma config from prisma.config.ts.
+
+Prisma schema loaded from prisma/schema.prisma.
+
+✔ Generated Prisma Client (7.10.1) to ./src/generated/prisma in 60ms
+
+MODE DEMO LOKAL — menyiapkan PostgreSQL di komputer ini...
+Mode ini tidak membutuhkan akun/URL Neon. Data tersimpan di .local-db.
+Seed lokal siap: 133 hero, 892 skin, 3 player.
+Port 38745 sedang dipakai. Mencoba port 38746...
+
+MLBB SHOP SIAP — DEMO LOKAL
+Website : http://localhost:38746
+Health  : http://localhost:38746/health
+Postman : http://localhost:38746/postman/collection.json
+Untuk tugas Neon: npm run start:neon
+Tekan Ctrl+C untuk berhenti.
+
+GET /health 200 8ms
+GET /api/heroes 200 19ms
+GET /api/skins 200 15ms
+GET /postman/collection.json 200 2ms
+newman
+
+MLBB Shop - 28 Testcase Teruji
+
+→ 01. Health Check
+  GET http://localhost:38746/health [200 OK, 365B, 33ms]
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+GET /health 200 4ms
+
+→ 02. Daftar Hero Role Marksman
+  GET http://localhost:38746/api/heroes?role=MARKSMAN&limit=5 [200 OK, 935B, 22ms]
+GET /api/heroes?role=MARKSMAN&limit=5 200 17ms
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+
+→ 03. Cari Hero 'la'
+  GET http://localhost:38746/api/heroes?search=la [200 OK, 1.5kB, 21ms]
+GET /api/heroes?search=la 200 17ms
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+
+→ 04. Detail Hero Layla
+  GET http://localhost:38746/api/heroes/18 [200 OK, 1.39kB, 18ms]
+GET /api/heroes/18 200 14ms
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+
+→ 05. Detail Hero Tidak Ada
+  GET http://localhost:38746/api/heroes/999 [404 Not Found, 301B, 15ms]
+GET /api/heroes/999 404 10ms
+  ✓  HTTP 404
+  ✓  Response dan hasil sesuai modul
+
+→ 06. Tambah Hero Collie
+  POST http://localhost:38746/api/heroes [201 Created, 419B, 39ms]
+  ✓  HTTP 201
+  ✓  Response dan hasil sesuai modul
+POST /api/heroes 201 34ms
+
+→ 07. Tambah Hero Nama Sudah Ada
+  POST http://localhost:38746/api/heroes [409 Conflict, 305B, 9ms]
+POST /api/heroes 409 5ms
+  ✓  HTTP 409
+  ✓  Response dan hasil sesuai modul
+
+→ 08. Tambah Hero Data Kurang
+  POST http://localhost:38746/api/heroes [400 Bad Request, 539B, 6ms]
+POST /api/heroes 400 3ms
+  ✓  HTTP 400
+  ✓  Response dan hasil sesuai modul
+
+→ 09. Daftar Skin Layla
+  GET http://localhost:38746/api/skins?heroId=18 [200 OK, 1.49kB, 15ms]
+GET /api/skins?heroId=18 200 12ms
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+
+→ 10. Daftar Skin Rarity GRAND
+  GET http://localhost:38746/api/skins?rarity=GRAND [200 OK, 1.44kB, 17ms]
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+GET /api/skins?rarity=GRAND 200 14ms
+
+→ 11. Detail Skin Silverbolt Raiko
+  GET http://localhost:38746/api/skins/891 [200 OK, 516B, 10ms]
+GET /api/skins/891 200 7ms
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+
+→ 12. Buat Player JunglerMalam
+  POST http://localhost:38746/api/players [201 Created, 405B, 15ms]
+POST /api/players 201 12ms
+  ✓  HTTP 201
+  ✓  Response dan hasil sesuai modul
+
+→ 13. Buat Player Nickname Dipakai
+  POST http://localhost:38746/api/players [409 Conflict, 304B, 9ms]
+  ✓  HTTP 409
+  ✓  Response dan hasil sesuai modul
+POST /api/players 409 7ms
+
+→ 14. Top Up 706 Diamond
+  POST http://localhost:38746/api/players/3/topup [200 OK, 337B, 16ms]
+POST /api/players/3/topup 200 14ms
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+
+→ 15. Top Up Amount Negatif
+  POST http://localhost:38746/api/players/3/topup [400 Bad Request, 331B, 3ms]
+POST /api/players/3/topup 400 1ms
+  ✓  HTTP 400
+  ✓  Response dan hasil sesuai modul
+
+→ 16. Match Menang (WIN)
+  POST http://localhost:38746/api/players/3/matches [200 OK, 370B, 12ms]
+POST /api/players/3/matches 200 8ms
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+
+→ 17. Beli Freya Pakai BP (Gagal)
+  POST http://localhost:38746/api/players/3/heroes [400 Bad Request, 321B, 11ms]
+POST /api/players/3/heroes 400 9ms
+  ✓  HTTP 400
+  ✓  Response dan hasil sesuai modul
+
+→ 18. Beli Freya Pakai Diamond
+  POST http://localhost:38746/api/players/3/heroes [201 Created, 414B, 25ms]
+POST /api/players/3/heroes 201 23ms
+  ✓  HTTP 201
+  ✓  Response dan hasil sesuai modul
+
+→ 19. Beli Layla Pakai BP
+  POST http://localhost:38746/api/players/3/heroes [201 Created, 409B, 23ms]
+POST /api/players/3/heroes 201 21ms
+  ✓  HTTP 201
+  ✓  Response dan hasil sesuai modul
+
+→ 20. Beli Layla Lagi (Sudah Punya)
+  POST http://localhost:38746/api/players/3/heroes [409 Conflict, 312B, 12ms]
+  ✓  HTTP 409
+  ✓  Response dan hasil sesuai modul
+POST /api/players/3/heroes 409 9ms
+
+→ 21. Beli Hirara BP Kurang
+  POST http://localhost:38746/api/players/1/heroes [400 Bad Request, 324B, 10ms]
+POST /api/players/1/heroes 400 8ms
+  ✓  HTTP 400
+  ✓  Response dan hasil sesuai modul
+
+→ 22. Detail Player MageSurabaya
+  GET http://localhost:38746/api/players/3 [200 OK, 549B, 14ms]
+GET /api/players/3 200 12ms
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+
+→ 23. Ganti Nickname Jadi MageITS
+  PATCH http://localhost:38746/api/players/3 [200 OK, 409B, 13ms]
+PATCH /api/players/3 200 9ms
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+
+→ 24. Ganti Nickname Dipakai
+  PATCH http://localhost:38746/api/players/3 [409 Conflict, 316B, 10ms]
+PATCH /api/players/3 409 8ms
+  ✓  HTTP 409
+  ✓  Response dan hasil sesuai modul
+
+→ 25. Statistik Toko
+  GET http://localhost:38746/api/statistics [200 OK, 620B, 22ms]
+GET /api/statistics 200 21ms
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+
+→ 26. Hapus Player JunglerMalam
+  DELETE http://localhost:38746/api/players/4 [200 OK, 333B, 12ms]
+DELETE /api/players/4 200 10ms
+  ✓  HTTP 200
+  ✓  Response dan hasil sesuai modul
+
+→ 27. Detail Player Terhapus
+  GET http://localhost:38746/api/players/4 [404 Not Found, 303B, 6ms]
+GET /api/players/4 404 4ms
+  ✓  HTTP 404
+  ✓  Response dan hasil sesuai modul
+
+→ 28. Endpoint Tidak Ada
+  GET http://localhost:38746/api/ngawur [404 Not Found, 321B, 4ms]
+GET /api/ngawur 404 2ms
+  ✓  HTTP 404
+  ✓  Response dan hasil sesuai modul
+
+┌─────────────────────────┬──────────────────┬─────────────────┐
+│                         │         executed │          failed │
+├─────────────────────────┼──────────────────┼─────────────────┤
+│              iterations │                1 │               0 │
+├─────────────────────────┼──────────────────┼─────────────────┤
+│                requests │               28 │               0 │
+├─────────────────────────┼──────────────────┼─────────────────┤
+│            test-scripts │               28 │               0 │
+├─────────────────────────┼──────────────────┼─────────────────┤
+│      prerequest-scripts │                0 │               0 │
+├─────────────────────────┼──────────────────┼─────────────────┤
+│              assertions │               56 │               0 │
+├─────────────────────────┴──────────────────┴─────────────────┤
+│ total run duration: 864ms                                    │
+├──────────────────────────────────────────────────────────────┤
+│ total data received: 8.58kB (approx)                         │
+├──────────────────────────────────────────────────────────────┤
+│ average response time: 15ms [min: 3ms, max: 39ms, s.d.: 8ms] │
+└──────────────────────────────────────────────────────────────┘
+
+Menghentikan server dan menyimpan database...
+Membuat Prisma Client...
+Loaded Prisma config from prisma.config.ts.
+
+Prisma schema loaded from prisma/schema.prisma.
+
+✔ Generated Prisma Client (7.10.1) to ./src/generated/prisma in 79ms
+
+MODE DEMO LOKAL — menyiapkan PostgreSQL di komputer ini...
+Mode ini tidak membutuhkan akun/URL Neon. Data tersimpan di .local-db.
+Data lokal dipertahankan: 134 hero, 892 skin, 3 player.
+Port 38745 sedang dipakai. Mencoba port 38746...
+
+MLBB SHOP SIAP — DEMO LOKAL
+Website : http://localhost:38746
+Health  : http://localhost:38746/health
+Postman : http://localhost:38746/postman/collection.json
+Untuk tugas Neon: npm run start:neon
+Tekan Ctrl+C untuk berhenti.
+
+GET /api/statistics 200 51ms
+GET /api/heroes 200 10ms
+
+Menghentikan server dan menyimpan database...
+MODE DEMO LOKAL — menyiapkan PostgreSQL di komputer ini...
+Mode ini tidak membutuhkan akun/URL Neon. Data tersimpan di .local-db.
+Data lokal dipertahankan: 134 hero, 892 skin, 3 player.
+Port 38745 sedang dipakai. Mencoba port 38746...
+
+MLBB SHOP SIAP — DEMO LOKAL
+Website : http://localhost:38746
+Health  : http://localhost:38746/health
+Postman : http://localhost:38746/postman/collection.json
+Untuk tugas Neon: npm run start:neon
+Tekan Ctrl+C untuk berhenti.
+
+GET /health 200 8ms
+GET /api/heroes 200 25ms
+
+Menghentikan server dan menyimpan database...
+REAL STARTUP QA PASSED {"date":"2026-11-05T12:49:58.304Z","runtime":"v24.22.1","platform":"linux","entry":"node scripts/start.mjs","freshFolder":"MLBB Shop Uji é","envFileRequired":false,"automaticNpmCi":true,"automaticPrismaGenerate":true,"seed":{"heroes":133,"skins":892,"players":3},"occupiedPortHandled":true,"postman":{"requests":{"total":28,"pending":0,"failed":0},"assertions":{"total":56,"pending":0,"failed":0},"failures":0},"persistentRestart":{"heroes":134,"players":3,"ownerships":6,"diamond":3074},"compiledRuntimePassed":true,"windowsCmdExecuted":false,"neonCloudExecuted":false}

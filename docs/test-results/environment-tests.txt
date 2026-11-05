@@ -1,0 +1,22 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> mlbb-shop-modul-4@1.1.0 test:env
+> node --test tests/environment.test.mjs
+
+✔ koneksi pooled/direct pada branch sama diterima (1.962931ms)
+✔ koneksi kosong ditolak dengan instruksi (0.241075ms)
+✔ placeholder lama ditolak (0.194136ms)
+✔ direct tidak boleh memakai pooler (0.212282ms)
+✔ dua branch berbeda ditolak (0.276867ms)
+✔ port bukan angka ditolak (0.144243ms)
+✔ setup menerima URL, kutip, assignment .env, dan perintah psql (0.212312ms)
+✔ direct dapat dibuat dari pooled pada branch/database/role yang sama (0.144903ms)
+✔ pembuatan direct tidak mengubah URL asing atau input rusak (0.329565ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 98.474888

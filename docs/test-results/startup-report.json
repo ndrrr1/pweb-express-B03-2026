@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-05T12:49:58.304Z",
+  "runtime": "v24.22.1",
+  "platform": "linux",
+  "entry": "node scripts/start.mjs",
+  "freshFolder": "MLBB Shop Uji é",
+  "envFileRequired": false,
+  "automaticNpmCi": true,
+  "automaticPrismaGenerate": true,
+  "seed": {
+    "heroes": 133,
+    "skins": 892,
+    "players": 3
+  },
+  "occupiedPortHandled": true,
+  "postman": {
+    "requests": {
+      "total": 28,
+      "pending": 0,
+      "failed": 0
+    },
+    "assertions": {
+      "total": 56,
+      "pending": 0,
+      "failed": 0
+    },
+    "failures": 0
+  },
+  "persistentRestart": {
+    "heroes": 134,
+    "players": 3,
+    "ownerships": 6,
+    "diamond": 3074
+  },
+  "compiledRuntimePassed": true,
+  "windowsCmdExecuted": false,
+  "neonCloudExecuted": false
+}

@@ -1,0 +1,54 @@
+{
+  "name": "mlbb-shop-modul-4",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MLBB Shop: Express 5, TypeScript, Prisma 7, Neon, dan antarmuka katalog hero.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "node --watch --import tsx src/local.ts",
+    "start": "node scripts/start.mjs",
+    "build": "tsc",
+    "start:build": "node dist/local.js",
+    "typecheck": "tsc --noEmit",
+    "setup": "node scripts/setup.mjs",
+    "check:env": "node scripts/check-env.mjs",
+    "data:verify": "node scripts/verify-dataset.mjs",
+    "db:generate": "prisma generate",
+    "db:migrate": "node scripts/check-env.mjs && prisma migrate dev",
+    "db:deploy": "node scripts/check-env.mjs && prisma migrate deploy",
+    "db:seed": "node scripts/check-env.mjs && prisma db seed",
+    "db:studio": "node scripts/check-env.mjs && prisma studio",
+    "demo:reset": "node scripts/start.mjs --reset-local",
+    "test": "prisma generate && node --import tsx --test --test-concurrency=1 tests/api.test.ts tests/startup.test.ts",
+    "test:env": "node --test tests/environment.test.mjs",
+    "start:local": "node scripts/start.mjs",
+    "start:neon": "node scripts/start.mjs --neon",
+    "dev:neon": "node --watch --import tsx src/index.ts",
+    "start:build:neon": "node dist/index.js",
+    "setup:local": "node scripts/start.mjs --prepare-only",
+    "demo:reset:neon": "npm run db:seed",
+    "test:startup": "prisma generate && node --import tsx --test --test-concurrency=1 tests/startup.test.ts"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.12",
+    "@electric-sql/pglite-socket": "0.2.15",
+    "@neondatabase/serverless": "1.2.0",
+    "@prisma/adapter-neon": "7.10.1",
+    "@prisma/client": "7.10.1",
+    "dotenv": "17.2.3",
+    "express": "5.1.0",
+    "ws": "8.22.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.0",
+    "@types/ws": "^8.18.1",
+    "prisma": "7.10.1",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}
