@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#121416" />
+    <title>MLBB Shop — Hero & Skin</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#heroes" aria-label="MLBB Shop"
+          ><span class="brand-emblem">M</span
+          ><span>MLBB<span class="brand-shop">SHOP</span></span></a
+        >
+        <nav class="main-nav" aria-label="Navigasi toko">
+          <a href="#heroes" data-route="heroes" class="active">Hero</a
+          ><a href="#skins" data-route="skins">Skin</a
+          ><a href="#collection" data-route="collection">Koleksi</a
+          ><a href="#players" data-route="players">Player</a
+          ><a href="#statistics" data-route="statistics">Statistik</a>
+        </nav>
+        <div class="account">
+          <label class="player-switch"
+            ><span class="avatar" id="avatar">M</span
+            ><span class="sr-only">Player aktif</span
+            ><select id="playerSelect" aria-label="Player aktif">
+              <option>Memuat…</option>
+            </select></label
+          ><span class="header-divider"></span
+          ><span class="wallet bp-wallet" title="Battle Point"
+            ><svg class="icon"><use href="/icons.svg#coin"></use></svg
+            ><strong id="bpBalance">—</strong></span
+          ><span class="wallet diamond-wallet" title="Diamond"
+            ><svg class="icon"><use href="/icons.svg#diamond"></use></svg
+            ><strong id="diamondBalance">—</strong></span
+          ><button
+            id="topupButton"
+            class="topup-button"
+            aria-label="Top up Diamond"
+          >
+            <svg class="icon"><use href="/icons.svg#plus"></use></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="site-main" id="main">
+      <div class="loading-state">Memuat toko…</div>
+    </main>
+    <footer class="site-footer">
+      <a class="footer-brand" href="#heroes">MLBB SHOP</a
+      ><span id="runtimeMode"
+        >Simulasi toko untuk praktikum pemrograman web.</span
+      ><a href="/postman/collection.json" download
+        >Collection Postman
+        <svg class="icon"><use href="/icons.svg#arrow-right"></use></svg
+      ></a>
+    </footer>
+    <dialog class="hero-dialog" id="heroDialog">
+      <button
+        type="button"
+        class="close-button"
+        data-close="heroDialog"
+        aria-label="Tutup detail hero"
+      >
+        <svg class="icon"><use href="/icons.svg#close"></use></svg>
+      </button>
+      <div id="heroDetail"></div>
+    </dialog>
+    <dialog class="form-dialog" id="actionDialog">
+      <div id="actionContent"></div>
+    </dialog>
+    <div class="toast-region" id="toasts" aria-live="polite"></div>
+  </body>
+</html>
