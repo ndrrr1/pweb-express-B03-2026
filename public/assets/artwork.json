@@ -1,0 +1,3939 @@
+{
+  "heroes": {
+    "1": {
+      "src": "/assets/heroes/1.webp",
+      "source": "Miya/Moonlight Archer.png"
+    },
+    "2": {
+      "src": "/assets/heroes/2.webp",
+      "source": "Balmond/Bloody Beast.png"
+    },
+    "3": {
+      "src": "/assets/heroes/3.webp",
+      "source": "Saber/Wandering Sword.png"
+    },
+    "4": {
+      "src": "/assets/heroes/4.webp",
+      "source": "Alice/Queen of Blood.png"
+    },
+    "5": {
+      "src": "/assets/heroes/5.webp",
+      "source": "Nana/Sweet Leonin.png"
+    },
+    "6": {
+      "src": "/assets/heroes/6.webp",
+      "source": "Tigreal/Warrior of Dawn.png"
+    },
+    "7": {
+      "src": "/assets/heroes/7.webp",
+      "source": "Alucard/Demon Hunter.png"
+    },
+    "8": {
+      "src": "/assets/heroes/8.webp",
+      "source": "Karina/Shadow Blade.png"
+    },
+    "9": {
+      "src": "/assets/heroes/9.webp",
+      "source": "Akai/Panda Warrior.png"
+    },
+    "10": {
+      "src": "/assets/heroes/10.webp",
+      "source": "Franco/Frozen Warrior.png"
+    },
+    "11": {
+      "src": "/assets/heroes/11.webp",
+      "source": "Bane/Lord of Scalding Seas.png"
+    },
+    "12": {
+      "src": "/assets/heroes/12.webp",
+      "source": "Bruno/The Protector.png"
+    },
+    "13": {
+      "src": "/assets/heroes/13.webp",
+      "source": "Clint/West Justice.png"
+    },
+    "14": {
+      "src": "/assets/heroes/14.webp",
+      "source": "Rafaela/Wings of Holiness.png"
+    },
+    "15": {
+      "src": "/assets/heroes/15.webp",
+      "source": "Eudora/Lightning Weaver.png"
+    },
+    "16": {
+      "src": "/assets/heroes/16.webp",
+      "source": "Zilong/Spear of Dragon.png"
+    },
+    "17": {
+      "src": "/assets/heroes/17.webp",
+      "source": "Fanny/Blade Dancer.png"
+    },
+    "18": {
+      "src": "/assets/heroes/18.webp",
+      "source": "Layla/Energy Gunner.png"
+    },
+    "19": {
+      "src": "/assets/heroes/19.webp",
+      "source": "Minotaur/Son of Minos.png"
+    },
+    "20": {
+      "src": "/assets/heroes/20.webp",
+      "source": "Lolita/Steel Elf.png"
+    },
+    "21": {
+      "src": "/assets/heroes/21.webp",
+      "source": "Hayabusa/Crimson Shadow.png"
+    },
+    "22": {
+      "src": "/assets/heroes/22.webp",
+      "source": "Freya/Valkyrie.png"
+    },
+    "23": {
+      "src": "/assets/heroes/23.webp",
+      "source": "Gord/Professor of the Mystics.png"
+    },
+    "24": {
+      "src": "/assets/heroes/24.webp",
+      "source": "Natalia/Bright Claw.png"
+    },
+    "25": {
+      "src": "/assets/heroes/25.webp",
+      "source": "Kagura/Onmyouji Master.png"
+    },
+    "26": {
+      "src": "/assets/heroes/26.webp",
+      "source": "Chou/Kung Fu Boy.png"
+    },
+    "27": {
+      "src": "/assets/heroes/27.webp",
+      "source": "Sun/Monkey King.png"
+    },
+    "28": {
+      "src": "/assets/heroes/28.webp",
+      "source": "Alpha/Blade of Enmity.png"
+    },
+    "29": {
+      "src": "/assets/heroes/29.webp",
+      "source": "Ruby/Little Red Hood.png"
+    },
+    "30": {
+      "src": "/assets/heroes/30.webp",
+      "source": "Yi Sun-shin/Paenlong Legend.png"
+    },
+    "31": {
+      "src": "/assets/heroes/31.webp",
+      "source": "Moskov/Spear of Quiescence.png"
+    },
+    "32": {
+      "src": "/assets/heroes/32.webp",
+      "source": "Johnson/Wild Engine.png"
+    },
+    "33": {
+      "src": "/assets/heroes/33.webp",
+      "source": "Cyclops/Starsoul Magician.png"
+    },
+    "34": {
+      "src": "/assets/heroes/34.webp",
+      "source": "Estes/Moon Elf King.png"
+    },
+    "35": {
+      "src": "/assets/heroes/35.webp",
+      "source": "Hilda/Power of Megalith.png"
+    },
+    "36": {
+      "src": "/assets/heroes/36.webp",
+      "source": "Aurora/Maiden of the Glacier.png"
+    },
+    "37": {
+      "src": "/assets/heroes/37.webp",
+      "source": "Lapu-Lapu/Courageous Blade.png"
+    },
+    "38": {
+      "src": "/assets/heroes/38.webp",
+      "source": "Vexana/Shimmer of Hope.png"
+    },
+    "39": {
+      "src": "/assets/heroes/39.webp",
+      "source": "Roger/Dire Wolf Hunter.png"
+    },
+    "40": {
+      "src": "/assets/heroes/40.webp",
+      "source": "Karrie/Lost Star.png"
+    },
+    "41": {
+      "src": "/assets/heroes/41.webp",
+      "source": "Gatotkaca/Mighty Legend.png"
+    },
+    "42": {
+      "src": "/assets/heroes/42.webp",
+      "source": "Harley/Mage Genius.png"
+    },
+    "43": {
+      "src": "/assets/heroes/43.webp",
+      "source": "Irithel/Jungle Heart.png"
+    },
+    "44": {
+      "src": "/assets/heroes/44.webp",
+      "source": "Grock/Fortress Titan.png"
+    },
+    "45": {
+      "src": "/assets/heroes/45.webp",
+      "source": "Argus/Dark Angel.png"
+    },
+    "46": {
+      "src": "/assets/heroes/46.webp",
+      "source": "Odette/Swan Princess.png"
+    },
+    "47": {
+      "src": "/assets/heroes/47.webp",
+      "source": "Lancelot/Blade of Roses.png"
+    },
+    "48": {
+      "src": "/assets/heroes/48.webp",
+      "source": "Diggie/Timekeeper.png"
+    },
+    "49": {
+      "src": "/assets/heroes/49.webp",
+      "source": "Hylos/Grand Warden.png"
+    },
+    "50": {
+      "src": "/assets/heroes/50.webp",
+      "source": "Zhask/The King of Swarms.png"
+    },
+    "51": {
+      "src": "/assets/heroes/51.webp",
+      "source": "Helcurt/Shadowbringer.png"
+    },
+    "52": {
+      "src": "/assets/heroes/52.webp",
+      "source": "Pharsa/Wings of Vengeance.png"
+    },
+    "53": {
+      "src": "/assets/heroes/53.webp",
+      "source": "Lesley/Deadly Sniper.png"
+    },
+    "54": {
+      "src": "/assets/heroes/54.webp",
+      "source": "Jawhead/Steel Sweetheart.png"
+    },
+    "55": {
+      "src": "/assets/heroes/55.webp",
+      "source": "Angela/Bunnylove.png"
+    },
+    "56": {
+      "src": "/assets/heroes/56.webp",
+      "source": "Gusion/Holy Blade.png"
+    },
+    "57": {
+      "src": "/assets/heroes/57.webp",
+      "source": "Valir/Son of Flames.png"
+    },
+    "58": {
+      "src": "/assets/heroes/58.webp",
+      "source": "Martis/Ashura King.png"
+    },
+    "59": {
+      "src": "/assets/heroes/59.webp",
+      "source": "Uranus/Aethereal Defender.png"
+    },
+    "60": {
+      "src": "/assets/heroes/60.webp",
+      "source": "Hanabi/Scarlet Flower.png"
+    },
+    "61": {
+      "src": "/assets/heroes/61.webp",
+      "source": "Chang'e/Moon Palace Immortal.png"
+    },
+    "62": {
+      "src": "/assets/heroes/62.webp",
+      "source": "Kaja/Horror Whiplash.png"
+    },
+    "63": {
+      "src": "/assets/heroes/63.webp",
+      "source": "Selena/Abyssal Witch.png"
+    },
+    "64": {
+      "src": "/assets/heroes/64.webp",
+      "source": "Aldous/Contractor.png"
+    },
+    "65": {
+      "src": "/assets/heroes/65.webp",
+      "source": "Claude/Master Thief.png"
+    },
+    "66": {
+      "src": "/assets/heroes/66.webp",
+      "source": "Leomord/Sworn Sword.png"
+    },
+    "67": {
+      "src": "/assets/heroes/67.webp",
+      "source": "Lunox/Twilight Goddess.png"
+    },
+    "68": {
+      "src": "/assets/heroes/68.webp",
+      "source": "Hanzo/Soulfire Netherlord.png"
+    },
+    "69": {
+      "src": "/assets/heroes/69.webp",
+      "source": "Belerick/Guard of Nature.png"
+    },
+    "70": {
+      "src": "/assets/heroes/70.webp",
+      "source": "Kimmy/Hoverjet Outrider.png"
+    },
+    "71": {
+      "src": "/assets/heroes/71.webp",
+      "source": "Thamuz/Lord Lava.png"
+    },
+    "72": {
+      "src": "/assets/heroes/72.webp",
+      "source": "Harith/Time Traveler.png"
+    },
+    "73": {
+      "src": "/assets/heroes/73.webp",
+      "source": "Minsitthar/Courageous Warrior.png"
+    },
+    "74": {
+      "src": "/assets/heroes/74.webp",
+      "source": "Kadita/Ocean Goddess.png"
+    },
+    "75": {
+      "src": "/assets/heroes/75.webp",
+      "source": "Vale/Windtalker.png"
+    },
+    "76": {
+      "src": "/assets/heroes/76.webp",
+      "source": "Faramis/Soul Binder.png"
+    },
+    "77": {
+      "src": "/assets/heroes/77.webp",
+      "source": "Badang/Tribal Warrior.png"
+    },
+    "78": {
+      "src": "/assets/heroes/78.webp",
+      "source": "Khufra/Desert Tyrant.png"
+    },
+    "79": {
+      "src": "/assets/heroes/79.webp",
+      "source": "Granger/Death Chanter.png"
+    },
+    "80": {
+      "src": "/assets/heroes/80.webp",
+      "source": "Guinevere/Ms. Violet.png"
+    },
+    "81": {
+      "src": "/assets/heroes/81.webp",
+      "source": "Esmeralda/Astrologer.png"
+    },
+    "82": {
+      "src": "/assets/heroes/82.webp",
+      "source": "Terizla/Executioner.png"
+    },
+    "83": {
+      "src": "/assets/heroes/83.webp",
+      "source": "X.Borg/Firaga Armor.png"
+    },
+    "84": {
+      "src": "/assets/heroes/84.webp",
+      "source": "Ling/Cyan Finch.png"
+    },
+    "85": {
+      "src": "/assets/heroes/85.webp",
+      "source": "Dyrroth/Prince of the Abyss.png"
+    },
+    "86": {
+      "src": "/assets/heroes/86.webp",
+      "source": "Lylia/Little Witch.png"
+    },
+    "87": {
+      "src": "/assets/heroes/87.webp",
+      "source": "Baxia/Mystic Tortoise.png"
+    },
+    "88": {
+      "src": "/assets/heroes/88.webp",
+      "source": "Masha/Wild-oats Fist.png"
+    },
+    "89": {
+      "src": "/assets/heroes/89.webp",
+      "source": "Wanwan/Agile Tiger.png"
+    },
+    "90": {
+      "src": "/assets/heroes/90.webp",
+      "source": "Silvanna/Imperial Knightess.png"
+    },
+    "91": {
+      "src": "/assets/heroes/91.webp",
+      "source": "Cecilion/Embrace of Night.png"
+    },
+    "92": {
+      "src": "/assets/heroes/92.webp",
+      "source": "Carmilla/Shadow of Twilight.png"
+    },
+    "93": {
+      "src": "/assets/heroes/93.webp",
+      "source": "Atlas/Ocean Gladiator.png"
+    },
+    "94": {
+      "src": "/assets/heroes/94.webp",
+      "source": "Popol and Kupa/Icefield Companions.png"
+    },
+    "95": {
+      "src": "/assets/heroes/95.webp",
+      "source": "Yu Zhong/Black Dragon.png"
+    },
+    "96": {
+      "src": "/assets/heroes/96.webp",
+      "source": "Luo Yi/Yin-yang Geomancer.png"
+    },
+    "97": {
+      "src": "/assets/heroes/97.webp",
+      "source": "Benedetta/Shadow Ranger.png"
+    },
+    "98": {
+      "src": "/assets/heroes/98.webp",
+      "source": "Khaleed/Desert Scimitar.png"
+    },
+    "99": {
+      "src": "/assets/heroes/99.webp",
+      "source": "Barats/Dino Rider.png"
+    },
+    "100": {
+      "src": "/assets/heroes/100.webp",
+      "source": "Brody/The Lone Star.png"
+    },
+    "101": {
+      "src": "/assets/heroes/101.webp",
+      "source": "Mathilda/Swift Plume.png"
+    },
+    "102": {
+      "src": "/assets/heroes/102.webp",
+      "source": "Yve/Astrowarden.png"
+    },
+    "103": {
+      "src": "/assets/heroes/103.webp",
+      "source": "Paquito/The Heavenly Fist.png"
+    },
+    "104": {
+      "src": "/assets/heroes/104.webp",
+      "source": "Gloo/Swamp Spirits.png"
+    },
+    "105": {
+      "src": "/assets/heroes/105.webp",
+      "source": "Beatrix/Dawnbreak Soldier.png"
+    },
+    "106": {
+      "src": "/assets/heroes/106.webp",
+      "source": "Phoveus/Chains of Sin.png"
+    },
+    "107": {
+      "src": "/assets/heroes/107.webp",
+      "source": "Natan/Spacetime Walker.png"
+    },
+    "108": {
+      "src": "/assets/heroes/108.webp",
+      "source": "Aulus/Warrior of Ferocity.png"
+    },
+    "109": {
+      "src": "/assets/heroes/109.webp",
+      "source": "Aamon/Duke of Shards.png"
+    },
+    "110": {
+      "src": "/assets/heroes/110.webp",
+      "source": "Valentina/Prophetess of the Night.png"
+    },
+    "111": {
+      "src": "/assets/heroes/111.webp",
+      "source": "Edith/Ancient Guard.png"
+    },
+    "112": {
+      "src": "/assets/heroes/112.webp",
+      "source": "Floryn/The Budding Hope.png"
+    },
+    "113": {
+      "src": "/assets/heroes/113.webp",
+      "source": "Yin/Martial Genius.png"
+    },
+    "114": {
+      "src": "/assets/heroes/114.webp",
+      "source": "Melissa/Cursed Needle.png"
+    },
+    "115": {
+      "src": "/assets/heroes/115.webp",
+      "source": "Xavier/Defier of Light.png"
+    },
+    "116": {
+      "src": "/assets/heroes/116.webp",
+      "source": "Julian/Scarlet Raven.png"
+    },
+    "117": {
+      "src": "/assets/heroes/117.webp",
+      "source": "Fredrinn/Rogue Appraiser.png"
+    },
+    "118": {
+      "src": "/assets/heroes/118.webp",
+      "source": "Joy/Flash of Miracle.png"
+    },
+    "119": {
+      "src": "/assets/heroes/119.webp",
+      "source": "Novaria/Star Rebel.png"
+    },
+    "120": {
+      "src": "/assets/heroes/120.webp",
+      "source": "Arlott/Lone Lancer.png"
+    },
+    "121": {
+      "src": "/assets/heroes/121.webp",
+      "source": "Ixia/Dynamic Streak.png"
+    },
+    "122": {
+      "src": "/assets/heroes/122.webp",
+      "source": "Nolan/Cosmic Wayfinder.png"
+    },
+    "123": {
+      "src": "/assets/heroes/123.webp",
+      "source": "Cici/Buoyant Performer.png"
+    },
+    "124": {
+      "src": "/assets/heroes/124.webp",
+      "source": "Chip/Phase Technician.png"
+    },
+    "125": {
+      "src": "/assets/heroes/125.webp",
+      "source": "Zhuxin/Beacon of Spirits.png"
+    },
+    "126": {
+      "src": "/assets/heroes/126.webp",
+      "source": "Suyou/Mask of the Immortal.png"
+    },
+    "127": {
+      "src": "/assets/heroes/127.webp",
+      "source": "Lukas/Naruto Uzumaki.png"
+    },
+    "128": {
+      "src": "/assets/heroes/128.webp",
+      "source": "Kalea/Sakura Haruno.png"
+    },
+    "129": {
+      "src": "/assets/heroes/129.webp",
+      "source": "Zetian/Celestial Empress.png"
+    },
+    "130": {
+      "src": "/assets/heroes/130.webp",
+      "source": "Obsidia/Sovereign of Dark's End.png"
+    },
+    "131": {
+      "src": "/assets/heroes/131.webp",
+      "source": "Sora/Shifting Cloud.png"
+    },
+    "132": {
+      "src": "/assets/heroes/132.webp",
+      "source": "Marcel/Soul Photographer.png"
+    },
+    "133": {
+      "src": "/assets/heroes/133.webp",
+      "source": "Hiara/Fallen Scarlet.png"
+    }
+  },
+  "skins": {
+    "1": {
+      "src": "/assets/skins/1.webp",
+      "source": "Saber/Force Warrior.png"
+    },
+    "2": {
+      "src": "/assets/skins/2.webp",
+      "source": "Miya/Christmas Carnival.png"
+    },
+    "3": {
+      "src": "/assets/skins/3.webp",
+      "source": "Gord/Christmas Carnival.png"
+    },
+    "4": {
+      "src": "/assets/skins/4.webp",
+      "source": "Miya/Burning Bow.png"
+    },
+    "5": {
+      "src": "/assets/skins/5.webp",
+      "source": "Balmond/Ghoul's Fury.png"
+    },
+    "6": {
+      "src": "/assets/skins/6.webp",
+      "source": "Balmond/Power Source.png"
+    },
+    "7": {
+      "src": "/assets/skins/7.webp",
+      "source": "Saber/Golden Flash.png"
+    },
+    "8": {
+      "src": "/assets/skins/8.webp",
+      "source": "Alice/Spirit Woman.png"
+    },
+    "9": {
+      "src": "/assets/skins/9.webp",
+      "source": "Nana/Clockwork Maid.png"
+    },
+    "10": {
+      "src": "/assets/skins/10.webp",
+      "source": "Nana/Graveyard Party.png"
+    },
+    "11": {
+      "src": "/assets/skins/11.webp",
+      "source": "Tigreal/Dark Guardian.png"
+    },
+    "12": {
+      "src": "/assets/skins/12.webp",
+      "source": "Alucard/Lone Hero.png"
+    },
+    "13": {
+      "src": "/assets/skins/13.webp",
+      "source": "Karina/Christmas Carnival.png"
+    },
+    "14": {
+      "src": "/assets/skins/14.webp",
+      "source": "Karina/Phantom Blade.png"
+    },
+    "15": {
+      "src": "/assets/skins/15.webp",
+      "source": "Akai/Summer Party.png"
+    },
+    "17": {
+      "src": "/assets/skins/17.webp",
+      "source": "Bane/Castle Master.png"
+    },
+    "18": {
+      "src": "/assets/skins/18.webp",
+      "source": "Bruno/Best DJ.png"
+    },
+    "21": {
+      "src": "/assets/skins/21.webp",
+      "source": "Rafaela/Fertility Goddess.png"
+    },
+    "22": {
+      "src": "/assets/skins/22.webp",
+      "source": "Eudora/Christmas Carnival.png"
+    },
+    "23": {
+      "src": "/assets/skins/23.webp",
+      "source": "Eudora/Flame Red Lips.png"
+    },
+    "24": {
+      "src": "/assets/skins/24.webp",
+      "source": "Fanny/Campus Youth.png"
+    },
+    "25": {
+      "src": "/assets/skins/25.webp",
+      "source": "Layla/Green Flash.png"
+    },
+    "26": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Minotaur/Bursting%20Yama.png",
+      "source": "Minotaur/Bursting Yama.png"
+    },
+    "27": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lolita/Soldier%20in%20Training.png",
+      "source": "Lolita/Soldier in Training.png"
+    },
+    "28": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hayabusa/Spacetime%20Shadow.png",
+      "source": "Hayabusa/Spacetime Shadow.png"
+    },
+    "29": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gord/Professor%20of%20Hell.png",
+      "source": "Gord/Professor of Hell.png"
+    },
+    "30": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natalia/Glass%20Blade.png",
+      "source": "Natalia/Glass Blade.png"
+    },
+    "31": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kagura/Flower%20Season.png",
+      "source": "Kagura/Flower Season.png"
+    },
+    "32": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chou/Hip-hop%20Boy.png",
+      "source": "Chou/Hip-hop Boy.png"
+    },
+    "33": {
+      "src": "/assets/skins/33.webp",
+      "source": "Layla/Bunny Babe.png"
+    },
+    "34": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Miya/Captain%20Thorns.png",
+      "source": "Miya/Captain Thorns.png"
+    },
+    "35": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Freya/Dragon%20Hunter.png",
+      "source": "Freya/Dragon Hunter.png"
+    },
+    "36": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natalia/Phantom%20Dancer.png",
+      "source": "Natalia/Phantom Dancer.png"
+    },
+    "37": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hilda/Power%20of%20Wildness.png",
+      "source": "Hilda/Power of Wildness.png"
+    },
+    "38": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Moskov/Snake%20Eye%20Commander.png",
+      "source": "Moskov/Snake Eye Commander.png"
+    },
+    "39": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aurora/Nature%27s%20Throne.png",
+      "source": "Aurora/Nature's Throne.png"
+    },
+    "40": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vexana/Lucent%20Beacon.png",
+      "source": "Vexana/Lucent Beacon.png"
+    },
+    "41": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zilong/Eastern%20Warrior.png",
+      "source": "Zilong/Eastern Warrior.png"
+    },
+    "42": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karina/Black%20Pearl.png",
+      "source": "Karina/Black Pearl.png"
+    },
+    "43": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Franco/Apocalypse.png",
+      "source": "Franco/Apocalypse.png"
+    },
+    "44": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zilong/Elite%20Warrior.png",
+      "source": "Zilong/Elite Warrior.png"
+    },
+    "45": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Sun/Battle%20Buddha.png",
+      "source": "Sun/Battle Buddha.png"
+    },
+    "46": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alpha/Fierce%20Dragon.png",
+      "source": "Alpha/Fierce Dragon.png"
+    },
+    "47": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ruby/Cat%20Girl.png",
+      "source": "Ruby/Cat Girl.png"
+    },
+    "48": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lapu-Lapu/Ancestral%20Blade.png",
+      "source": "Lapu-Lapu/Ancestral Blade.png"
+    },
+    "49": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Roger/Dark%20Gent.png",
+      "source": "Roger/Dark Gent.png"
+    },
+    "50": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karrie/Rising%20Star.png",
+      "source": "Karrie/Rising Star.png"
+    },
+    "51": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gatotkaca/Mighty%20Guardian.png",
+      "source": "Gatotkaca/Mighty Guardian.png"
+    },
+    "52": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harley/Naughty%20Joker.png",
+      "source": "Harley/Naughty Joker.png"
+    },
+    "53": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Irithel/Silver%20Cyclone.png",
+      "source": "Irithel/Silver Cyclone.png"
+    },
+    "54": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Clint/Rock%20and%20Roll.png",
+      "source": "Clint/Rock and Roll.png"
+    },
+    "55": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Miya/Modena%20Butterfly.png",
+      "source": "Miya/Modena Butterfly.png"
+    },
+    "56": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Miya/Honor.png",
+      "source": "Miya/Honor.png"
+    },
+    "57": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Grock/Grave%20Guardian.png",
+      "source": "Grock/Grave Guardian.png"
+    },
+    "58": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Argus/Light%20of%20Dawn.png",
+      "source": "Argus/Light of Dawn.png"
+    },
+    "59": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Odette/Black%20Swan.png",
+      "source": "Odette/Black Swan.png"
+    },
+    "60": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aurora/Heartbreak%20Empress.png",
+      "source": "Aurora/Heartbreak Empress.png"
+    },
+    "61": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Roger/Dr.%20Beast.png",
+      "source": "Roger/Dr. Beast.png"
+    },
+    "62": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Diggie/Pigeoneer.png",
+      "source": "Diggie/Pigeoneer.png"
+    },
+    "63": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Argus/Dark%20Draconic.png",
+      "source": "Argus/Dark Draconic.png"
+    },
+    "64": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Rafaela/S.A.B.E.R.%20Savior.png",
+      "source": "Rafaela/S.A.B.E.R. Savior.png"
+    },
+    "65": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yi%20Sun-shin/Fleet%20Warden.png",
+      "source": "Yi Sun-shin/Fleet Warden.png"
+    },
+    "66": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Moskov/Blood%20Spear.png",
+      "source": "Moskov/Blood Spear.png"
+    },
+    "67": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Estes/Rattan%20Dragon.png",
+      "source": "Estes/Rattan Dragon.png"
+    },
+    "68": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hilda/Flower%20of%20the%20Wastes.png",
+      "source": "Hilda/Flower of the Wastes.png"
+    },
+    "69": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Irithel/Hellfire.png",
+      "source": "Irithel/Hellfire.png"
+    },
+    "70": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zhask/Crystallized%20Predator.png",
+      "source": "Zhask/Crystallized Predator.png"
+    },
+    "71": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alucard/Viscount.png",
+      "source": "Alucard/Viscount.png"
+    },
+    "72": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Helcurt/Exoracial%20Executer.png",
+      "source": "Helcurt/Exoracial Executer.png"
+    },
+    "73": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Pharsa/Wings%20of%20Heaven.png",
+      "source": "Pharsa/Wings of Heaven.png"
+    },
+    "74": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Balmond/Savage%20Hunter.png",
+      "source": "Balmond/Savage Hunter.png"
+    },
+    "75": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Saber/Codename%20-%20Storm.png",
+      "source": "Saber/Codename - Storm.png"
+    },
+    "76": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alice/Wizardry%20Teacher.png",
+      "source": "Alice/Wizardry Teacher.png"
+    },
+    "77": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Nana/Slumber%20Party.png",
+      "source": "Nana/Slumber Party.png"
+    },
+    "78": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Tigreal/Fallen%20Guard.png",
+      "source": "Tigreal/Fallen Guard.png"
+    },
+    "79": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alucard/Child%20of%20the%20Fall.png",
+      "source": "Alucard/Child of the Fall.png"
+    },
+    "80": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alucard/Fiery%20Inferno.png",
+      "source": "Alucard/Fiery Inferno.png"
+    },
+    "81": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Akai/Monk.png",
+      "source": "Akai/Monk.png"
+    },
+    "82": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Clint/Guns%20and%20Roses.png",
+      "source": "Clint/Guns and Roses.png"
+    },
+    "83": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Rafaela/Flower%20Fairy.png",
+      "source": "Rafaela/Flower Fairy.png"
+    },
+    "84": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Eudora/Emerald%20Enchantress.png",
+      "source": "Eudora/Emerald Enchantress.png"
+    },
+    "85": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Eudora/Vivo%20Selfie%20Goddess.png",
+      "source": "Eudora/Vivo Selfie Goddess.png"
+    },
+    "86": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zilong/Glorious%20General.png",
+      "source": "Zilong/Glorious General.png"
+    },
+    "87": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fanny/Punk%20Princess.png",
+      "source": "Fanny/Punk Princess.png"
+    },
+    "88": {
+      "src": "/assets/skins/88.webp",
+      "source": "Layla/Blue Spectre.png"
+    },
+    "89": {
+      "src": "/assets/skins/89.webp",
+      "source": "Layla/Cannon and Roses.png"
+    },
+    "90": {
+      "src": "/assets/skins/90.webp",
+      "source": "Layla/Classic Malefic Gunner.png"
+    },
+    "91": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lolita/Impish%20Trickster.png",
+      "source": "Lolita/Impish Trickster.png"
+    },
+    "92": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hayabusa/Future%20Enforcer.png",
+      "source": "Hayabusa/Future Enforcer.png"
+    },
+    "93": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Freya/Beach%20Sweetheart.png",
+      "source": "Freya/Beach Sweetheart.png"
+    },
+    "94": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Freya/Dark%20Rose.png",
+      "source": "Freya/Dark Rose.png"
+    },
+    "95": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Freya/War%20Angel.png",
+      "source": "Freya/War Angel.png"
+    },
+    "96": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kagura/Cherry%20Witch.png",
+      "source": "Kagura/Cherry Witch.png"
+    },
+    "97": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chou/Dragon%20Boy.png",
+      "source": "Chou/Dragon Boy.png"
+    },
+    "98": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chou/King%20of%20Muay%20Thai.png",
+      "source": "Chou/King of Muay Thai.png"
+    },
+    "99": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Sun/Rock%20Star.png",
+      "source": "Sun/Rock Star.png"
+    },
+    "100": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alpha/Onimusha%20Commander.png",
+      "source": "Alpha/Onimusha Commander.png"
+    },
+    "101": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ruby/Hidden%20Orchid%20Butterfly.png",
+      "source": "Ruby/Hidden Orchid Butterfly.png"
+    },
+    "102": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yi%20Sun-shin/Apocalypse%20Agent.png",
+      "source": "Yi Sun-shin/Apocalypse Agent.png"
+    },
+    "103": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yi%20Sun-shin/Major%20General.png",
+      "source": "Yi Sun-shin/Major General.png"
+    },
+    "104": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yi%20Sun-shin/Roguish%20Ranger.png",
+      "source": "Yi Sun-shin/Roguish Ranger.png"
+    },
+    "105": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Moskov/Spear%20of%20Bone%20Dragon.png",
+      "source": "Moskov/Spear of Bone Dragon.png"
+    },
+    "106": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Johnson/Fire%20Chief.png",
+      "source": "Johnson/Fire Chief.png"
+    },
+    "107": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cyclops/Exorcist.png",
+      "source": "Cyclops/Exorcist.png"
+    },
+    "108": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cyclops/Super%20Adventurer.png",
+      "source": "Cyclops/Super Adventurer.png"
+    },
+    "109": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Estes/Holy%20Priest.png",
+      "source": "Estes/Holy Priest.png"
+    },
+    "110": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lapu-Lapu/Imperial%20Champion.png",
+      "source": "Lapu-Lapu/Imperial Champion.png"
+    },
+    "111": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karrie/Bladed%20Mantis.png",
+      "source": "Karrie/Bladed Mantis.png"
+    },
+    "112": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karrie/Dragon%20Queen.png",
+      "source": "Karrie/Dragon Queen.png"
+    },
+    "113": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Roger/Anubis.png",
+      "source": "Roger/Anubis.png"
+    },
+    "114": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lancelot/Masked%20Knight.png",
+      "source": "Lancelot/Masked Knight.png"
+    },
+    "115": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lesley/Royal%20Musketeer.png",
+      "source": "Lesley/Royal Musketeer.png"
+    },
+    "116": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Jawhead/Girl%20Scout.png",
+      "source": "Jawhead/Girl Scout.png"
+    },
+    "117": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Angela/Dove%26Love.png",
+      "source": "Angela/Dove&Love.png"
+    },
+    "118": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Miya/Sweet%20Fantasy.png",
+      "source": "Miya/Sweet Fantasy.png"
+    },
+    "119": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alucard/Romantic%20Fantasy.png",
+      "source": "Alucard/Romantic Fantasy.png"
+    },
+    "120": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aurora/Foxy%20Lady.png",
+      "source": "Aurora/Foxy Lady.png"
+    },
+    "121": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Martis/Tyrant.png",
+      "source": "Martis/Tyrant.png"
+    },
+    "122": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Irithel/Nightarrow.png",
+      "source": "Irithel/Nightarrow.png"
+    },
+    "123": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Belerick/The%20Deep%20One.png",
+      "source": "Belerick/The Deep One.png"
+    },
+    "124": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kimmy/Astrocat.png",
+      "source": "Kimmy/Astrocat.png"
+    },
+    "125": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harith/Stardust.png",
+      "source": "Harith/Stardust.png"
+    },
+    "126": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Minsitthar/Gilded%20King.png",
+      "source": "Minsitthar/Gilded King.png"
+    },
+    "127": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Faramis/Royal%20Magus.png",
+      "source": "Faramis/Royal Magus.png"
+    },
+    "128": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Faramis/Summer%20Sparks.png",
+      "source": "Faramis/Summer Sparks.png"
+    },
+    "129": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Badang/Susanoo.png",
+      "source": "Badang/Susanoo.png"
+    },
+    "130": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zhask/Bone%20Flamen.png",
+      "source": "Zhask/Bone Flamen.png"
+    },
+    "131": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harley/Royal%20Magister.png",
+      "source": "Harley/Royal Magister.png"
+    },
+    "132": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gusion/Moonlight%20Sonata.png",
+      "source": "Gusion/Moonlight Sonata.png"
+    },
+    "133": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valir/Pale%20Flame.png",
+      "source": "Valir/Pale Flame.png"
+    },
+    "134": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Uranus/Ancient%20Soul.png",
+      "source": "Uranus/Ancient Soul.png"
+    },
+    "135": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanabi/Resplendent%20Iris.png",
+      "source": "Hanabi/Resplendent Iris.png"
+    },
+    "136": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Pharsa/Peafowl%27s%20Dance.png",
+      "source": "Pharsa/Peafowl's Dance.png"
+    },
+    "138": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Martis/Searing%20Maw.png",
+      "source": "Martis/Searing Maw.png"
+    },
+    "139": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Akai/Akazonae%20Samurai.png",
+      "source": "Akai/Akazonae Samurai.png"
+    },
+    "140": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Grock/Wasteland%20Psycho.png",
+      "source": "Grock/Wasteland Psycho.png"
+    },
+    "141": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Odette/Butterfly%20Goddess.png",
+      "source": "Odette/Butterfly Goddess.png"
+    },
+    "142": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lancelot/Christmas%20Carnival.png",
+      "source": "Lancelot/Christmas Carnival.png"
+    },
+    "143": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Helcurt/Evolved%20Predator.png",
+      "source": "Helcurt/Evolved Predator.png"
+    },
+    "144": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lesley/Cheergunner.png",
+      "source": "Lesley/Cheergunner.png"
+    },
+    "145": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harley/Referee.png",
+      "source": "Harley/Referee.png"
+    },
+    "146": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Jawhead/Space%20Explorer.png",
+      "source": "Jawhead/Space Explorer.png"
+    },
+    "148": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chang%27e/Moonstruck.png",
+      "source": "Chang'e/Moonstruck.png"
+    },
+    "149": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Selena/Wasp%20Queen.png",
+      "source": "Selena/Wasp Queen.png"
+    },
+    "150": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aldous/Red%20Mantle.png",
+      "source": "Aldous/Red Mantle.png"
+    },
+    "151": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vexana/Sanguine%20Rose.png",
+      "source": "Vexana/Sanguine Rose.png"
+    },
+    "152": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lancelot/Dark%20Earl.png",
+      "source": "Lancelot/Dark Earl.png"
+    },
+    "153": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Roger/Phantom%20Hunter.png",
+      "source": "Roger/Phantom Hunter.png"
+    },
+    "154": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harley/Great%20Inventor.png",
+      "source": "Harley/Great Inventor.png"
+    },
+    "155": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hylos/Phantom%20Seer.png",
+      "source": "Hylos/Phantom Seer.png"
+    },
+    "156": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Odette/Mermaid%20Princess.png",
+      "source": "Odette/Mermaid Princess.png"
+    },
+    "157": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lancelot/Royal%20Matador.png",
+      "source": "Lancelot/Royal Matador.png"
+    },
+    "158": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lesley/Stellaris%20Ghost.png",
+      "source": "Lesley/Stellaris Ghost.png"
+    },
+    "159": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Miya/Suzuhime.png",
+      "source": "Miya/Suzuhime.png"
+    },
+    "160": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gusion/Hairstylist.png",
+      "source": "Gusion/Hairstylist.png"
+    },
+    "161": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valir/Arcane%20Seeker.png",
+      "source": "Valir/Arcane Seeker.png"
+    },
+    "162": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanabi/Viper.png",
+      "source": "Hanabi/Viper.png"
+    },
+    "163": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cyclops/Deep%20Sea%20Rescuer.png",
+      "source": "Cyclops/Deep Sea Rescuer.png"
+    },
+    "164": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gusion/Cyber%20Ops.png",
+      "source": "Gusion/Cyber Ops.png"
+    },
+    "165": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karrie/Jester.png",
+      "source": "Karrie/Jester.png"
+    },
+    "166": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gatotkaca/Arhat%20King.png",
+      "source": "Gatotkaca/Arhat King.png"
+    },
+    "167": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Claude/Plunderous%20Pirate.png",
+      "source": "Claude/Plunderous Pirate.png"
+    },
+    "168": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Irithel/Sagittarius.png",
+      "source": "Irithel/Sagittarius.png"
+    },
+    "169": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Belerick/Emerald%20Guardian.png",
+      "source": "Belerick/Emerald Guardian.png"
+    },
+    "170": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kimmy/Charge%20Leader.png",
+      "source": "Kimmy/Charge Leader.png"
+    },
+    "171": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harith/Lightborn%20-%20Inspirer.png",
+      "source": "Harith/Lightborn - Inspirer.png"
+    },
+    "172": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harith/Savannah%20Cat.png",
+      "source": "Harith/Savannah Cat.png"
+    },
+    "173": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Faramis/Infernal%20Magister.png",
+      "source": "Faramis/Infernal Magister.png"
+    },
+    "174": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fanny/Royal%20Cavalry.png",
+      "source": "Fanny/Royal Cavalry.png"
+    },
+    "175": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gatotkaca/Sentinel.png",
+      "source": "Gatotkaca/Sentinel.png"
+    },
+    "176": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kadita/Atlantean%20Princess.png",
+      "source": "Kadita/Atlantean Princess.png"
+    },
+    "177": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Balmond/Savage%20Pointguard.png",
+      "source": "Balmond/Savage Pointguard.png"
+    },
+    "178": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Saber/Fullmetal%20Ronin.png",
+      "source": "Saber/Fullmetal Ronin.png"
+    },
+    "179": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Saber/S.A.B.E.R.%20Regulator.png",
+      "source": "Saber/S.A.B.E.R. Regulator.png"
+    },
+    "180": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alice/Divine%20Owl.png",
+      "source": "Alice/Divine Owl.png"
+    },
+    "181": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Nana/Wind%20Fairy.png",
+      "source": "Nana/Wind Fairy.png"
+    },
+    "182": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Tigreal/Wyrmslayer.png",
+      "source": "Tigreal/Wyrmslayer.png"
+    },
+    "183": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karina/Doom%20Duelist.png",
+      "source": "Karina/Doom Duelist.png"
+    },
+    "184": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karina/Spider%20Lily.png",
+      "source": "Karina/Spider Lily.png"
+    },
+    "185": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Akai/Imperial%20Assassin.png",
+      "source": "Akai/Imperial Assassin.png"
+    },
+    "186": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Franco/Locomotive.png",
+      "source": "Franco/Locomotive.png"
+    },
+    "187": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Bane/Deep%20Sea%20Monster.png",
+      "source": "Bane/Deep Sea Monster.png"
+    },
+    "188": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Bruno/Street%20Football.png",
+      "source": "Bruno/Street Football.png"
+    },
+    "189": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Rafaela/Biomedic.png",
+      "source": "Rafaela/Biomedic.png"
+    },
+    "190": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zilong/Blazing%20Lancer.png",
+      "source": "Zilong/Blazing Lancer.png"
+    },
+    "191": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zilong/Changbanpo%20Commander.png",
+      "source": "Zilong/Changbanpo Commander.png"
+    },
+    "192": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zilong/Christmas%20Carnival.png",
+      "source": "Zilong/Christmas Carnival.png"
+    },
+    "193": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fanny/Skylark.png",
+      "source": "Fanny/Skylark.png"
+    },
+    "194": {
+      "src": "/assets/skins/194.webp",
+      "source": "Layla/S.A.B.E.R. Breacher.png"
+    },
+    "195": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Minotaur/Orbiter.png",
+      "source": "Minotaur/Orbiter.png"
+    },
+    "196": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Minotaur/Sacred%20Hammer.png",
+      "source": "Minotaur/Sacred Hammer.png"
+    },
+    "197": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hayabusa/Experiment%2021.png",
+      "source": "Hayabusa/Experiment 21.png"
+    },
+    "198": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Freya/Christmas%20Carnival.png",
+      "source": "Freya/Christmas Carnival.png"
+    },
+    "199": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Freya/Gladiator.png",
+      "source": "Freya/Gladiator.png"
+    },
+    "200": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gord/Conqueror.png",
+      "source": "Gord/Conqueror.png"
+    },
+    "201": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natalia/Deadly%20Mamba.png",
+      "source": "Natalia/Deadly Mamba.png"
+    },
+    "202": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natalia/Midnight%20Raven.png",
+      "source": "Natalia/Midnight Raven.png"
+    },
+    "203": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kagura/Dragon%20Maiden.png",
+      "source": "Kagura/Dragon Maiden.png"
+    },
+    "204": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chou/Furious%20Tiger.png",
+      "source": "Chou/Furious Tiger.png"
+    },
+    "205": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Sun/Street%20Legend.png",
+      "source": "Sun/Street Legend.png"
+    },
+    "206": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alpha/Sea%20Gladiator.png",
+      "source": "Alpha/Sea Gladiator.png"
+    },
+    "207": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ruby/Edelweiss.png",
+      "source": "Ruby/Edelweiss.png"
+    },
+    "208": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Moskov/Decapitator.png",
+      "source": "Moskov/Decapitator.png"
+    },
+    "209": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Moskov/Javelin%20Champion.png",
+      "source": "Moskov/Javelin Champion.png"
+    },
+    "210": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Moskov/Yasha.png",
+      "source": "Moskov/Yasha.png"
+    },
+    "211": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Johnson/Jeepney%20Racer.png",
+      "source": "Johnson/Jeepney Racer.png"
+    },
+    "212": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Johnson/S.A.B.E.R.%20Automata.png",
+      "source": "Johnson/S.A.B.E.R. Automata.png"
+    },
+    "213": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cyclops/S.A.B.E.R.%20Enforcer.png",
+      "source": "Cyclops/S.A.B.E.R. Enforcer.png"
+    },
+    "214": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cyclops/Zombie%20Bambino.png",
+      "source": "Cyclops/Zombie Bambino.png"
+    },
+    "215": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Estes/White%20Crane.png",
+      "source": "Estes/White Crane.png"
+    },
+    "216": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hilda/Sacred%20Guard.png",
+      "source": "Hilda/Sacred Guard.png"
+    },
+    "217": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Grock/Castle%20Guard.png",
+      "source": "Grock/Castle Guard.png"
+    },
+    "218": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Argus/Catastrophe.png",
+      "source": "Argus/Catastrophe.png"
+    },
+    "219": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Odette/Christmas%20Carnival.png",
+      "source": "Odette/Christmas Carnival.png"
+    },
+    "220": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hylos/Abyssal%20Shaman.png",
+      "source": "Hylos/Abyssal Shaman.png"
+    },
+    "221": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Helcurt/Ice%20Scythe.png",
+      "source": "Helcurt/Ice Scythe.png"
+    },
+    "222": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lesley/General%20Rosa.png",
+      "source": "Lesley/General Rosa.png"
+    },
+    "223": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Leomord/Frostborn%20Paladin.png",
+      "source": "Leomord/Frostborn Paladin.png"
+    },
+    "224": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Selena/Virus.png",
+      "source": "Selena/Virus.png"
+    },
+    "225": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aldous/Death.png",
+      "source": "Aldous/Death.png"
+    },
+    "226": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aurora/Aquarius.png",
+      "source": "Aurora/Aquarius.png"
+    },
+    "227": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lunox/Cosmic%20Harmony.png",
+      "source": "Lunox/Cosmic Harmony.png"
+    },
+    "228": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vale/Cerulean%20Winds.png",
+      "source": "Vale/Cerulean Winds.png"
+    },
+    "229": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Moskov/Twilight%20Dragon.png",
+      "source": "Moskov/Twilight Dragon.png"
+    },
+    "230": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alice/Steam%20Glider.png",
+      "source": "Alice/Steam Glider.png"
+    },
+    "231": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karrie/Hawkwatch.png",
+      "source": "Karrie/Hawkwatch.png"
+    },
+    "232": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Odette/Virgo.png",
+      "source": "Odette/Virgo.png"
+    },
+    "233": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lancelot/Pisces.png",
+      "source": "Lancelot/Pisces.png"
+    },
+    "234": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lesley/Dangerous%20Love.png",
+      "source": "Lesley/Dangerous Love.png"
+    },
+    "235": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Guinevere/Fleur%20de%20Bleau.png",
+      "source": "Guinevere/Fleur de Bleau.png"
+    },
+    "237": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lolita/Lion%20Dance.png",
+      "source": "Lolita/Lion Dance.png"
+    },
+    "238": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Jawhead/The%20Nutcracker.png",
+      "source": "Jawhead/The Nutcracker.png"
+    },
+    "239": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Angela/Summer%20Vibes.png",
+      "source": "Angela/Summer Vibes.png"
+    },
+    "240": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gusion/Dangerous%20Liaison.png",
+      "source": "Gusion/Dangerous Liaison.png"
+    },
+    "241": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kimmy/Bio%20Frontier.png",
+      "source": "Kimmy/Bio Frontier.png"
+    },
+    "242": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Khufra/Desert%20Owl.png",
+      "source": "Khufra/Desert Owl.png"
+    },
+    "243": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Pharsa/Indigo%20Aviatrix.png",
+      "source": "Pharsa/Indigo Aviatrix.png"
+    },
+    "244": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hilda/Aries.png",
+      "source": "Hilda/Aries.png"
+    },
+    "245": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Saber/Onimaru.png",
+      "source": "Saber/Onimaru.png"
+    },
+    "246": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karina/Leona.png",
+      "source": "Karina/Leona.png"
+    },
+    "247": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chou/Iori%20Yagami.png",
+      "source": "Chou/Iori Yagami.png"
+    },
+    "248": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Guinevere/Athena%20Asamiya.png",
+      "source": "Guinevere/Athena Asamiya.png"
+    },
+    "249": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Uranus/Mech%20Protector.png",
+      "source": "Uranus/Mech Protector.png"
+    },
+    "250": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanabi/Fiery%20Moth.png",
+      "source": "Hanabi/Fiery Moth.png"
+    },
+    "251": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harley/V.E.N.O.M.%20Octopus.png",
+      "source": "Harley/V.E.N.O.M. Octopus.png"
+    },
+    "252": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Esmeralda/Ruddy%20Dusk.png",
+      "source": "Esmeralda/Ruddy Dusk.png"
+    },
+    "253": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Minotaur/Taurus.png",
+      "source": "Minotaur/Taurus.png"
+    },
+    "254": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Granger/Bardic%20Whisper.png",
+      "source": "Granger/Bardic Whisper.png"
+    },
+    "255": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lunox/Ash%20Blossom.png",
+      "source": "Lunox/Ash Blossom.png"
+    },
+    "256": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Diggie/Constellation.png",
+      "source": "Diggie/Constellation.png"
+    },
+    "257": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Faramis/Dark%20Necro.png",
+      "source": "Faramis/Dark Necro.png"
+    },
+    "258": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karina/Gemini%20-%20Halo.png",
+      "source": "Karina/Gemini - Halo.png"
+    },
+    "259": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Selena/Gemini%20-%20Shadow.png",
+      "source": "Selena/Gemini - Shadow.png"
+    },
+    "260": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Terizla/Abyss%20Guard.png",
+      "source": "Terizla/Abyss Guard.png"
+    },
+    "261": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kaja/Kaminari.png",
+      "source": "Kaja/Kaminari.png"
+    },
+    "262": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vexana/Cursed%20Shackle.png",
+      "source": "Vexana/Cursed Shackle.png"
+    },
+    "263": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zhask/Cancer.png",
+      "source": "Zhask/Cancer.png"
+    },
+    "264": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Dyrroth/Scalebore.png",
+      "source": "Dyrroth/Scalebore.png"
+    },
+    "265": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kaja/Horror%20Whiplash.png",
+      "source": "Kaja/Horror Whiplash.png"
+    },
+    "266": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aldous/The%20Insentient.png",
+      "source": "Aldous/The Insentient.png"
+    },
+    "267": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Badang/Leo.png",
+      "source": "Badang/Leo.png"
+    },
+    "268": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lylia/School%20Idol.png",
+      "source": "Lylia/School Idol.png"
+    },
+    "269": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Jawhead/Foo%20Quarterback.png",
+      "source": "Jawhead/Foo Quarterback.png"
+    },
+    "270": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Angela/V.E.N.O.M.%20Vespid.png",
+      "source": "Angela/V.E.N.O.M. Vespid.png"
+    },
+    "271": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gusion/V.E.N.O.M.%20Emperor%20Scorpion.png",
+      "source": "Gusion/V.E.N.O.M. Emperor Scorpion.png"
+    },
+    "272": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valir/Draconic%20Flame.png",
+      "source": "Valir/Draconic Flame.png"
+    },
+    "273": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanabi/V.E.N.O.M.%20Nephila.png",
+      "source": "Hanabi/V.E.N.O.M. Nephila.png"
+    },
+    "274": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chou/Go%20Ballistic.png",
+      "source": "Chou/Go Ballistic.png"
+    },
+    "275": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Belerick/Torch%20Guardian.png",
+      "source": "Belerick/Torch Guardian.png"
+    },
+    "276": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Thamuz/Liquid%20Fire.png",
+      "source": "Thamuz/Liquid Fire.png"
+    },
+    "277": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/X.Borg/Blue%20Storm.png",
+      "source": "X.Borg/Blue Storm.png"
+    },
+    "278": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chang%27e/Crimson%20Moon.png",
+      "source": "Chang'e/Crimson Moon.png"
+    },
+    "279": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aurora/Kula%20Diamond.png",
+      "source": "Aurora/Kula Diamond.png"
+    },
+    "280": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Guinevere/Lotus.png",
+      "source": "Guinevere/Lotus.png"
+    },
+    "281": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Granger/Doomsday%20Terminator.png",
+      "source": "Granger/Doomsday Terminator.png"
+    },
+    "282": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Leomord/Inferno%20Soul.png",
+      "source": "Leomord/Inferno Soul.png"
+    },
+    "283": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kadita/White%20Robin.png",
+      "source": "Kadita/White Robin.png"
+    },
+    "284": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Masha/Winter%20Guard.png",
+      "source": "Masha/Winter Guard.png"
+    },
+    "285": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hylos/Jungle%20Watcher.png",
+      "source": "Hylos/Jungle Watcher.png"
+    },
+    "286": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lunox/Libra.png",
+      "source": "Lunox/Libra.png"
+    },
+    "287": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lunox/Dawn%20Revelation.png",
+      "source": "Lunox/Dawn Revelation.png"
+    },
+    "288": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lunox/Eyes%20of%20Eternity.png",
+      "source": "Lunox/Eyes of Eternity.png"
+    },
+    "289": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Selena/Double%20Identity.png",
+      "source": "Selena/Double Identity.png"
+    },
+    "290": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gatotkaca/Spark.png",
+      "source": "Gatotkaca/Spark.png"
+    },
+    "291": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Baxia/Wild%20Totem.png",
+      "source": "Baxia/Wild Totem.png"
+    },
+    "292": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Esmeralda/Poison%20Vine.png",
+      "source": "Esmeralda/Poison Vine.png"
+    },
+    "293": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aldous/King%20of%20Supremacy.png",
+      "source": "Aldous/King of Supremacy.png"
+    },
+    "294": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chang%27e/Floral%20Elfo.png",
+      "source": "Chang'e/Floral Elfo.png"
+    },
+    "295": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Helcurt/Scorpio.png",
+      "source": "Helcurt/Scorpio.png"
+    },
+    "296": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hayabusa/Shadow%20of%20Obscurity.png",
+      "source": "Hayabusa/Shadow of Obscurity.png"
+    },
+    "297": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Angela/Scream%20Doll.png",
+      "source": "Angela/Scream Doll.png"
+    },
+    "298": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Grock/Iceland%20Golem.png",
+      "source": "Grock/Iceland Golem.png"
+    },
+    "299": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lapu-Lapu/Vulcan.png",
+      "source": "Lapu-Lapu/Vulcan.png"
+    },
+    "300": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Grock/Ancient%20Golem.png",
+      "source": "Grock/Ancient Golem.png"
+    },
+    "301": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Grock/V.E.N.O.M.%20Monitor%20Lizard.png",
+      "source": "Grock/V.E.N.O.M. Monitor Lizard.png"
+    },
+    "302": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Argus/Winged%20Nightmare.png",
+      "source": "Argus/Winged Nightmare.png"
+    },
+    "303": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Odette/Auspicious%20Charm.png",
+      "source": "Odette/Auspicious Charm.png"
+    },
+    "304": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lancelot/Floral%20Knight.png",
+      "source": "Lancelot/Floral Knight.png"
+    },
+    "305": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lesley/Angelic%20Agent.png",
+      "source": "Lesley/Angelic Agent.png"
+    },
+    "306": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ruby/Lady%20Zombie.png",
+      "source": "Ruby/Lady Zombie.png"
+    },
+    "308": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Irithel/Astral%20Wanderer.png",
+      "source": "Irithel/Astral Wanderer.png"
+    },
+    "309": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ling/Fiery%20Dance.png",
+      "source": "Ling/Fiery Dance.png"
+    },
+    "310": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Wanwan/Darting%20Star.png",
+      "source": "Wanwan/Darting Star.png"
+    },
+    "311": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Dyrroth/Ruins%20Scavenger.png",
+      "source": "Dyrroth/Ruins Scavenger.png"
+    },
+    "312": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kaja/Skyblocker.png",
+      "source": "Kaja/Skyblocker.png"
+    },
+    "313": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Silvanna/Hallowed%20Lance.png",
+      "source": "Silvanna/Hallowed Lance.png"
+    },
+    "314": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Pharsa/Enchanting%20Witch.png",
+      "source": "Pharsa/Enchanting Witch.png"
+    },
+    "315": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Tigreal/Lightborn%20-%20Defender.png",
+      "source": "Tigreal/Lightborn - Defender.png"
+    },
+    "316": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alucard/Empire%20Agent.png",
+      "source": "Alucard/Empire Agent.png"
+    },
+    "317": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alucard/Lightborn%20-%20Striker.png",
+      "source": "Alucard/Lightborn - Striker.png"
+    },
+    "318": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alucard/Obsidian%20Blade.png",
+      "source": "Alucard/Obsidian Blade.png"
+    },
+    "319": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Franco/Wheatfield%20Nightmare.png",
+      "source": "Franco/Wheatfield Nightmare.png"
+    },
+    "320": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Bane/Warlord.png",
+      "source": "Bane/Warlord.png"
+    },
+    "321": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Clint/Badminton%20Champion.png",
+      "source": "Clint/Badminton Champion.png"
+    },
+    "323": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fanny/Lightborn%20-%20Ranger.png",
+      "source": "Fanny/Lightborn - Ranger.png"
+    },
+    "324": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hayabusa/Sushi%20Master.png",
+      "source": "Hayabusa/Sushi Master.png"
+    },
+    "325": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gord/No.1%20Controller.png",
+      "source": "Gord/No.1 Controller.png"
+    },
+    "326": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kagura/Summer%20Festival.png",
+      "source": "Kagura/Summer Festival.png"
+    },
+    "327": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Johnson/Wreck%20King.png",
+      "source": "Johnson/Wreck King.png"
+    },
+    "328": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valir/Dictator.png",
+      "source": "Valir/Dictator.png"
+    },
+    "329": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karrie/Gill-Girl.png",
+      "source": "Karrie/Gill-Girl.png"
+    },
+    "330": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Angela/Cyber%20Cherubin.png",
+      "source": "Angela/Cyber Cherubin.png"
+    },
+    "331": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gusion/Night%20Owl.png",
+      "source": "Gusion/Night Owl.png"
+    },
+    "332": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valir/Demonlord.png",
+      "source": "Valir/Demonlord.png"
+    },
+    "333": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Martis/God%20of%20War.png",
+      "source": "Martis/God of War.png"
+    },
+    "334": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Uranus/Video-Game%20Dominator.png",
+      "source": "Uranus/Video-Game Dominator.png"
+    },
+    "335": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanabi/Rakshesha.png",
+      "source": "Hanabi/Rakshesha.png"
+    },
+    "336": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Guinevere/Amethyst%20Dance.png",
+      "source": "Guinevere/Amethyst Dance.png"
+    },
+    "337": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Carmilla/Wisteria%20Countess.png",
+      "source": "Carmilla/Wisteria Countess.png"
+    },
+    "338": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Estes/Crow%20Bishop.png",
+      "source": "Estes/Crow Bishop.png"
+    },
+    "339": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Esmeralda/Lady%20Thief.png",
+      "source": "Esmeralda/Lady Thief.png"
+    },
+    "340": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Masha/Combat%20Maiden.png",
+      "source": "Masha/Combat Maiden.png"
+    },
+    "341": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cecilion/Wisteria%20Count.png",
+      "source": "Cecilion/Wisteria Count.png"
+    },
+    "342": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ling/Street%20Punk.png",
+      "source": "Ling/Street Punk.png"
+    },
+    "343": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Claude/Bad%20Bro.png",
+      "source": "Claude/Bad Bro.png"
+    },
+    "344": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Atlas/Reactor%20Core.png",
+      "source": "Atlas/Reactor Core.png"
+    },
+    "345": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lylia/Star%20Student.png",
+      "source": "Lylia/Star Student.png"
+    },
+    "346": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Wanwan/Shoujo%20Commander.png",
+      "source": "Wanwan/Shoujo Commander.png"
+    },
+    "347": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lesley/Lethal%20Lady.png",
+      "source": "Lesley/Lethal Lady.png"
+    },
+    "348": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Popol%20and%20Kupa/Hunting%20Pals.png",
+      "source": "Popol and Kupa/Hunting Pals.png"
+    },
+    "349": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Granger/Biosoldier.png",
+      "source": "Granger/Biosoldier.png"
+    },
+    "350": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Selena/Thunder%20Flash.png",
+      "source": "Selena/Thunder Flash.png"
+    },
+    "351": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lylia/Future%20Star.png",
+      "source": "Lylia/Future Star.png"
+    },
+    "352": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Luo%20Yi/Yin-yang%20Mage.png",
+      "source": "Luo Yi/Yin-yang Mage.png"
+    },
+    "353": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Silvanna/Midnight%20Justice.png",
+      "source": "Silvanna/Midnight Justice.png"
+    },
+    "354": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yu%20Zhong/Emerald%20Dragon.png",
+      "source": "Yu Zhong/Emerald Dragon.png"
+    },
+    "355": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/X.Borg/Graffiti%20Fashion.png",
+      "source": "X.Borg/Graffiti Fashion.png"
+    },
+    "356": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chang%27e/Lunar%20Magic.png",
+      "source": "Chang'e/Lunar Magic.png"
+    },
+    "357": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zhask/Extraterrestrial.png",
+      "source": "Zhask/Extraterrestrial.png"
+    },
+    "358": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karina/Blood%20Moon.png",
+      "source": "Karina/Blood Moon.png"
+    },
+    "360": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Masha/Dragon%20Armor.png",
+      "source": "Masha/Dragon Armor.png"
+    },
+    "361": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Masha/Spirited%20Gauntlet.png",
+      "source": "Masha/Spirited Gauntlet.png"
+    },
+    "362": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hayabusa/Biological%20Weapon.png",
+      "source": "Hayabusa/Biological Weapon.png"
+    },
+    "363": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Baxia/Badass%20Roller.png",
+      "source": "Baxia/Badass Roller.png"
+    },
+    "364": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Wanwan/Teen%20Pop.png",
+      "source": "Wanwan/Teen Pop.png"
+    },
+    "365": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Pharsa/Empress%20Phoenix.png",
+      "source": "Pharsa/Empress Phoenix.png"
+    },
+    "366": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Khaleed/Prince%20of%20Sand.png",
+      "source": "Khaleed/Prince of Sand.png"
+    },
+    "368": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Dyrroth/Orochi%20Chris.png",
+      "source": "Dyrroth/Orochi Chris.png"
+    },
+    "369": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Carmilla/Magician%20Girl.png",
+      "source": "Carmilla/Magician Girl.png"
+    },
+    "370": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cecilion/The%20Illusionist.png",
+      "source": "Cecilion/The Illusionist.png"
+    },
+    "371": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Esmeralda/Cleopatra.png",
+      "source": "Esmeralda/Cleopatra.png"
+    },
+    "372": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harley/Dream%20Caster.png",
+      "source": "Harley/Dream Caster.png"
+    },
+    "373": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Atlas/Fuel%20Turbine.png",
+      "source": "Atlas/Fuel Turbine.png"
+    },
+    "374": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Khufra/Volcanic%20Overlord.png",
+      "source": "Khufra/Volcanic Overlord.png"
+    },
+    "375": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Barats/Armored%20Lizard.png",
+      "source": "Barats/Armored Lizard.png"
+    },
+    "376": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Popol%20and%20Kupa/Tribal%20Howl.png",
+      "source": "Popol and Kupa/Tribal Howl.png"
+    },
+    "377": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Miya/Jungle%20Ranger.png",
+      "source": "Miya/Jungle Ranger.png"
+    },
+    "378": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Silvanna/Pure%20Heroine.png",
+      "source": "Silvanna/Pure Heroine.png"
+    },
+    "379": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Granger/Agent%20Z.png",
+      "source": "Granger/Agent Z.png"
+    },
+    "380": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Brody/Nameless%20Stray.png",
+      "source": "Brody/Nameless Stray.png"
+    },
+    "381": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lylia/Haunted%20Doll.png",
+      "source": "Lylia/Haunted Doll.png"
+    },
+    "382": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Terizla/Hammer%20Giant.png",
+      "source": "Terizla/Hammer Giant.png"
+    },
+    "383": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Luo%20Yi/Tenko.png",
+      "source": "Luo Yi/Tenko.png"
+    },
+    "384": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Leomord/Jack-o%27-lantern.png",
+      "source": "Leomord/Jack-o'-lantern.png"
+    },
+    "385": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chang%27e/Strawberry%20Parfait.png",
+      "source": "Chang'e/Strawberry Parfait.png"
+    },
+    "386": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Grock/Codename%3A%20Rhino.png",
+      "source": "Grock/Codename: Rhino.png"
+    },
+    "387": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Odette/Sage%20of%20the%20Currents.png",
+      "source": "Odette/Sage of the Currents.png"
+    },
+    "388": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lancelot/Bren%20Esports.png",
+      "source": "Lancelot/Bren Esports.png"
+    },
+    "389": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lesley/Falcon%20Mistress.png",
+      "source": "Lesley/Falcon Mistress.png"
+    },
+    "390": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/X.Borg/Tesla%20Maniac.png",
+      "source": "X.Borg/Tesla Maniac.png"
+    },
+    "391": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Benedetta/Honor%20Blade.png",
+      "source": "Benedetta/Honor Blade.png"
+    },
+    "392": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aldous/Blazing%20Force.png",
+      "source": "Aldous/Blazing Force.png"
+    },
+    "393": {
+      "src": "/assets/skins/393.webp",
+      "source": "Layla/Blazing Gun.png"
+    },
+    "394": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karrie/Neon%20Lightwheel.png",
+      "source": "Karrie/Neon Lightwheel.png"
+    },
+    "395": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yu%20Zhong/Biohazard.png",
+      "source": "Yu Zhong/Biohazard.png"
+    },
+    "396": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Mathilda/Unrestrained%20Delight.png",
+      "source": "Mathilda/Unrestrained Delight.png"
+    },
+    "397": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Esmeralda/Blazing%20Shadow.png",
+      "source": "Esmeralda/Blazing Shadow.png"
+    },
+    "398": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Guinevere/Sakura%20Wishes.png",
+      "source": "Guinevere/Sakura Wishes.png"
+    },
+    "399": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Nana/Mecha%20Baby.png",
+      "source": "Nana/Mecha Baby.png"
+    },
+    "400": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Akai/Stream%20Recluse.png",
+      "source": "Akai/Stream Recluse.png"
+    },
+    "401": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Franco/Blazing%20Axe.png",
+      "source": "Franco/Blazing Axe.png"
+    },
+    "402": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Franco/Valhalla%20Ruler.png",
+      "source": "Franco/Valhalla Ruler.png"
+    },
+    "403": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Bruno/Firebolt.png",
+      "source": "Bruno/Firebolt.png"
+    },
+    "404": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Bruno/The%20Falcon.png",
+      "source": "Bruno/The Falcon.png"
+    },
+    "405": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Clint/Shadow%20Omen.png",
+      "source": "Clint/Shadow Omen.png"
+    },
+    "406": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Clint/Witch%20Hunter.png",
+      "source": "Clint/Witch Hunter.png"
+    },
+    "407": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Rafaela/Star%20Chaser.png",
+      "source": "Rafaela/Star Chaser.png"
+    },
+    "408": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Eudora/Countess%20Scarlet.png",
+      "source": "Eudora/Countess Scarlet.png"
+    },
+    "409": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zilong/Summer%20Waves.png",
+      "source": "Zilong/Summer Waves.png"
+    },
+    "410": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fanny/Christmas%20Carnival.png",
+      "source": "Fanny/Christmas Carnival.png"
+    },
+    "411": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lolita/Special%20Op.png",
+      "source": "Lolita/Special Op.png"
+    },
+    "412": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Freya/Raven%20Shogun.png",
+      "source": "Freya/Raven Shogun.png"
+    },
+    "413": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natalia/Cyber%20Spectre.png",
+      "source": "Natalia/Cyber Spectre.png"
+    },
+    "414": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natalia/Grim%20Strangler.png",
+      "source": "Natalia/Grim Strangler.png"
+    },
+    "415": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Sun/Celestial%20Outlaw.png",
+      "source": "Sun/Celestial Outlaw.png"
+    },
+    "416": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alpha/Crimson%20Warrior.png",
+      "source": "Alpha/Crimson Warrior.png"
+    },
+    "417": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Benedetta/Street%20Thrasher.png",
+      "source": "Benedetta/Street Thrasher.png"
+    },
+    "418": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Roger/Cyborg%20Werewolf.png",
+      "source": "Roger/Cyborg Werewolf.png"
+    },
+    "419": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Paquito/Death%20Blow.png",
+      "source": "Paquito/Death Blow.png"
+    },
+    "420": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hilda/Bass%20Craze.png",
+      "source": "Hilda/Bass Craze.png"
+    },
+    "421": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lapu-Lapu/Special%20Force.png",
+      "source": "Lapu-Lapu/Special Force.png"
+    },
+    "422": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Wanwan/Pixel%20Blast.png",
+      "source": "Wanwan/Pixel Blast.png"
+    },
+    "423": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Luo%20Yi/Dawning%20Fortune.png",
+      "source": "Luo Yi/Dawning Fortune.png"
+    },
+    "424": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yve/Forest%20Hymn.png",
+      "source": "Yve/Forest Hymn.png"
+    },
+    "425": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cecilion/Phantom%20Count.png",
+      "source": "Cecilion/Phantom Count.png"
+    },
+    "426": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Carmilla/Phantom%20Countess.png",
+      "source": "Carmilla/Phantom Countess.png"
+    },
+    "427": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Khufra/Dreadful%20Clown.png",
+      "source": "Khufra/Dreadful Clown.png"
+    },
+    "428": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Khaleed/Crescent%20Scimitar.png",
+      "source": "Khaleed/Crescent Scimitar.png"
+    },
+    "429": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Beatrix/X%20Factor.png",
+      "source": "Beatrix/X Factor.png"
+    },
+    "430": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kagura/Rainy%20Walk.png",
+      "source": "Kagura/Rainy Walk.png"
+    },
+    "431": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Badang/Fist%20of%20Zen.png",
+      "source": "Badang/Fist of Zen.png"
+    },
+    "432": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chang%27e/Vine%20Cradle.png",
+      "source": "Chang'e/Vine Cradle.png"
+    },
+    "433": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Barats/Toy%20Rex.png",
+      "source": "Barats/Toy Rex.png"
+    },
+    "434": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Paquito/Manny%20Pacquiao.png",
+      "source": "Paquito/Manny Pacquiao.png"
+    },
+    "435": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gloo/Verdant%20Enchanter.png",
+      "source": "Gloo/Verdant Enchanter.png"
+    },
+    "436": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Granger/Starfall%20Knight.png",
+      "source": "Granger/Starfall Knight.png"
+    },
+    "437": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chou/S.T.U.N.%20Chou.png",
+      "source": "Chou/S.T.U.N. Chou.png"
+    },
+    "438": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yu%20Zhong/Blood%20Serpent.png",
+      "source": "Yu Zhong/Blood Serpent.png"
+    },
+    "439": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Brody/S.T.U.N.%20Brody.png",
+      "source": "Brody/S.T.U.N. Brody.png"
+    },
+    "440": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Phoveus/Monolith%20Watcher.png",
+      "source": "Phoveus/Monolith Watcher.png"
+    },
+    "441": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Mathilda/Floral%20Crown.png",
+      "source": "Mathilda/Floral Crown.png"
+    },
+    "442": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Selena/S.T.U.N.%20Selena.png",
+      "source": "Selena/S.T.U.N. Selena.png"
+    },
+    "443": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harith/Fashion%20Expert.png",
+      "source": "Harith/Fashion Expert.png"
+    },
+    "444": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Baxia/Ba-tender.png",
+      "source": "Baxia/Ba-tender.png"
+    },
+    "445": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Jawhead/Candy%20Bear.png",
+      "source": "Jawhead/Candy Bear.png"
+    },
+    "446": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ling/Serene%20Plume.png",
+      "source": "Ling/Serene Plume.png"
+    },
+    "447": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Sun/Simian%20Curse.png",
+      "source": "Sun/Simian Curse.png"
+    },
+    "448": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Benedetta/Death%20Oath.png",
+      "source": "Benedetta/Death Oath.png"
+    },
+    "449": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Wanwan/E-girl.png",
+      "source": "Wanwan/E-girl.png"
+    },
+    "450": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cyclops/Master%20Yoda.png",
+      "source": "Cyclops/Master Yoda.png"
+    },
+    "451": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Argus/Darth%20Vader.png",
+      "source": "Argus/Darth Vader.png"
+    },
+    "452": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natan/Time%20Wielder.png",
+      "source": "Natan/Time Wielder.png"
+    },
+    "453": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Luo%20Yi/Siren%20Priestess.png",
+      "source": "Luo Yi/Siren Priestess.png"
+    },
+    "454": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aulus/Berserker.png",
+      "source": "Aulus/Berserker.png"
+    },
+    "455": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Pharsa/Peony%20Bloom.png",
+      "source": "Pharsa/Peony Bloom.png"
+    },
+    "456": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Selena/Gothic%20Curse.png",
+      "source": "Selena/Gothic Curse.png"
+    },
+    "457": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aldous/Realm%20Watcher.png",
+      "source": "Aldous/Realm Watcher.png"
+    },
+    "458": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Beatrix/Blitz%20Attack.png",
+      "source": "Beatrix/Blitz Attack.png"
+    },
+    "459": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Miya/Moon%20Priestess.png",
+      "source": "Miya/Moon Priestess.png"
+    },
+    "460": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Floryn/Springtide.png",
+      "source": "Floryn/Springtide.png"
+    },
+    "461": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Paquito/Underground%20Boxer.png",
+      "source": "Paquito/Underground Boxer.png"
+    },
+    "462": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ruby/Pirate%20Parrot.png",
+      "source": "Ruby/Pirate Parrot.png"
+    },
+    "463": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Diggie/Circus%20Clown.png",
+      "source": "Diggie/Circus Clown.png"
+    },
+    "464": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hylos/Iron%20Steed.png",
+      "source": "Hylos/Iron Steed.png"
+    },
+    "465": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aamon/Night%27s%20Edge.png",
+      "source": "Aamon/Night's Edge.png"
+    },
+    "466": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cyclops/Straw%20Doll.png",
+      "source": "Cyclops/Straw Doll.png"
+    },
+    "467": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Barats/Baratstein.png",
+      "source": "Barats/Baratstein.png"
+    },
+    "468": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vale/Soaring%20Devata.png",
+      "source": "Vale/Soaring Devata.png"
+    },
+    "469": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Popol%20and%20Kupa/Trouble%20Makers.png",
+      "source": "Popol and Kupa/Trouble Makers.png"
+    },
+    "471": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lancelot/Empyrean%20Flame.png",
+      "source": "Lancelot/Empyrean Flame.png"
+    },
+    "472": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lesley/Hawk-eyed%20Sniper.png",
+      "source": "Lesley/Hawk-eyed Sniper.png"
+    },
+    "473": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valentina/Twilight%20Charmer.png",
+      "source": "Valentina/Twilight Charmer.png"
+    },
+    "474": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hayabusa/Shura.png",
+      "source": "Hayabusa/Shura.png"
+    },
+    "475": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kagura/Water%20Lily.png",
+      "source": "Kagura/Water Lily.png"
+    },
+    "476": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Brody/Lethal%20Fang.png",
+      "source": "Brody/Lethal Fang.png"
+    },
+    "477": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Selena/Lady%20Vengeance.png",
+      "source": "Selena/Lady Vengeance.png"
+    },
+    "478": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Edith/Celestial%20Safeguard.png",
+      "source": "Edith/Celestial Safeguard.png"
+    },
+    "479": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Roger/Phantom%20Ranger.png",
+      "source": "Roger/Phantom Ranger.png"
+    },
+    "480": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Balmond/God%20of%20Mountains.png",
+      "source": "Balmond/God of Mountains.png"
+    },
+    "481": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Saber/Silver%20Edge.png",
+      "source": "Saber/Silver Edge.png"
+    },
+    "482": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Nana/Aqua%20Pura.png",
+      "source": "Nana/Aqua Pura.png"
+    },
+    "483": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Tigreal/Gold%20Baron.png",
+      "source": "Tigreal/Gold Baron.png"
+    },
+    "484": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alucard/Obi-Wan%20Kenobi.png",
+      "source": "Alucard/Obi-Wan Kenobi.png"
+    },
+    "485": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Akai/Street%20Enforcer.png",
+      "source": "Akai/Street Enforcer.png"
+    },
+    "486": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Franco/Bone%20Crusher.png",
+      "source": "Franco/Bone Crusher.png"
+    },
+    "487": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zilong/Loyal%20Spear.png",
+      "source": "Zilong/Loyal Spear.png"
+    },
+    "488": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fanny/Imperial%20Warrior.png",
+      "source": "Fanny/Imperial Warrior.png"
+    },
+    "489": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gord/New%20Baron.png",
+      "source": "Gord/New Baron.png"
+    },
+    "490": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chou/Thunderfist.png",
+      "source": "Chou/Thunderfist.png"
+    },
+    "491": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Johnson/Death%20Ride.png",
+      "source": "Johnson/Death Ride.png"
+    },
+    "492": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karrie/Wheel%20of%20Justice.png",
+      "source": "Karrie/Wheel of Justice.png"
+    },
+    "493": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Silvanna/Future%20Cop.png",
+      "source": "Silvanna/Future Cop.png"
+    },
+    "494": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Clint/Operator%20CL.png",
+      "source": "Clint/Operator CL.png"
+    },
+    "495": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Dyrroth/Naraka%20Flame.png",
+      "source": "Dyrroth/Naraka Flame.png"
+    },
+    "496": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gusion/Cosmic%20Gleam.png",
+      "source": "Gusion/Cosmic Gleam.png"
+    },
+    "497": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valir/Infernal%20Blaze.png",
+      "source": "Valir/Infernal Blaze.png"
+    },
+    "498": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Martis/Deathrock.png",
+      "source": "Martis/Deathrock.png"
+    },
+    "499": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Uranus/Celestial%20Bastion.png",
+      "source": "Uranus/Celestial Bastion.png"
+    },
+    "500": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanabi/Riverland%20Phoenix.png",
+      "source": "Hanabi/Riverland Phoenix.png"
+    },
+    "501": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yve/Ruin%20Protectress.png",
+      "source": "Yve/Ruin Protectress.png"
+    },
+    "502": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yin/Fists%20of%20Valor.png",
+      "source": "Yin/Fists of Valor.png"
+    },
+    "503": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fanny/Blade%20of%20Kibou.png",
+      "source": "Fanny/Blade of Kibou.png"
+    },
+    "504": {
+      "src": "/assets/skins/504.webp",
+      "source": "Layla/Miss Hikari.png"
+    },
+    "505": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cecilion/Stargazer.png",
+      "source": "Cecilion/Stargazer.png"
+    },
+    "506": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natan/Chaos%20Hunter.png",
+      "source": "Natan/Chaos Hunter.png"
+    },
+    "507": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Claude/Golden%20Bullet.png",
+      "source": "Claude/Golden Bullet.png"
+    },
+    "508": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Leomord/Hell%20Knight.png",
+      "source": "Leomord/Hell Knight.png"
+    },
+    "509": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lunox/Bloody%20Mary.png",
+      "source": "Lunox/Bloody Mary.png"
+    },
+    "510": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanzo/The%20Pale%20Phantom.png",
+      "source": "Hanzo/The Pale Phantom.png"
+    },
+    "511": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Belerick/Tiger%27s%20Claw.png",
+      "source": "Belerick/Tiger's Claw.png"
+    },
+    "512": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kimmy/Steam%20Researcher.png",
+      "source": "Kimmy/Steam Researcher.png"
+    },
+    "513": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Thamuz/Lord%20of%20Wraith.png",
+      "source": "Thamuz/Lord of Wraith.png"
+    },
+    "514": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Minsitthar/King%20of%20War.png",
+      "source": "Minsitthar/King of War.png"
+    },
+    "515": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Badang/Ironfists.png",
+      "source": "Badang/Ironfists.png"
+    },
+    "516": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Melissa/Twinge%20Weaver.png",
+      "source": "Melissa/Twinge Weaver.png"
+    },
+    "517": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Mathilda/Dream%20Groove.png",
+      "source": "Mathilda/Dream Groove.png"
+    },
+    "518": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fanny/Heart%20Afloat.png",
+      "source": "Fanny/Heart Afloat.png"
+    },
+    "519": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Beatrix/Space%20Agent.png",
+      "source": "Beatrix/Space Agent.png"
+    },
+    "520": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Angela/Heartstring.png",
+      "source": "Angela/Heartstring.png"
+    },
+    "521": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chang%27e/Moon%20Artist.png",
+      "source": "Chang'e/Moon Artist.png"
+    },
+    "522": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Floryn/Fluffy%20Dream.png",
+      "source": "Floryn/Fluffy Dream.png"
+    },
+    "523": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Silvanna/Queen%20Frost.png",
+      "source": "Silvanna/Queen Frost.png"
+    },
+    "524": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Xavier/Verdict%20of%20Light.png",
+      "source": "Xavier/Verdict of Light.png"
+    },
+    "525": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Dyrroth/V.E.N.O.M.%20Cobra.png",
+      "source": "Dyrroth/V.E.N.O.M. Cobra.png"
+    },
+    "526": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Balmond/Bioroid.png",
+      "source": "Balmond/Bioroid.png"
+    },
+    "527": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Esmeralda/Light%20Envoy.png",
+      "source": "Esmeralda/Light Envoy.png"
+    },
+    "528": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Brody/Ore-chemist.png",
+      "source": "Brody/Ore-chemist.png"
+    },
+    "529": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Diggie/Fairytaler.png",
+      "source": "Diggie/Fairytaler.png"
+    },
+    "530": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Wanwan/M-World%20Wanwan.png",
+      "source": "Wanwan/M-World Wanwan.png"
+    },
+    "531": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Pharsa/Samba%20Muse.png",
+      "source": "Pharsa/Samba Muse.png"
+    },
+    "532": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ling/M-World%20Ling.png",
+      "source": "Ling/M-World Ling.png"
+    },
+    "533": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Guinevere/Psion%20of%20Tomorrow.png",
+      "source": "Guinevere/Psion of Tomorrow.png"
+    },
+    "534": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yin/M-World%20Yin.png",
+      "source": "Yin/M-World Yin.png"
+    },
+    "535": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Paquito/Fulgent%20Punch.png",
+      "source": "Paquito/Fulgent Punch.png"
+    },
+    "536": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Benedetta/Moonblade.png",
+      "source": "Benedetta/Moonblade.png"
+    },
+    "537": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vale/Supernal%20Tempest.png",
+      "source": "Vale/Supernal Tempest.png"
+    },
+    "538": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Roger/Grimlock.png",
+      "source": "Roger/Grimlock.png"
+    },
+    "539": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aldous/Starscream.png",
+      "source": "Aldous/Starscream.png"
+    },
+    "540": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Popol%20and%20Kupa/Soundwave%20%26%20Ravage.png",
+      "source": "Popol and Kupa/Soundwave & Ravage.png"
+    },
+    "541": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valir/Shikigami%20Sumonner.png",
+      "source": "Valir/Shikigami Sumonner.png"
+    },
+    "542": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Martis/Capricorn.png",
+      "source": "Martis/Capricorn.png"
+    },
+    "543": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Uranus/Pinball%20Machine.png",
+      "source": "Uranus/Pinball Machine.png"
+    },
+    "544": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanabi/Field%20Op.png",
+      "source": "Hanabi/Field Op.png"
+    },
+    "545": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Julian/Silent%20Edge.png",
+      "source": "Julian/Silent Edge.png"
+    },
+    "546": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Tigreal/Galactic%20Marshal.png",
+      "source": "Tigreal/Galactic Marshal.png"
+    },
+    "547": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Pharsa/Hierophant.png",
+      "source": "Pharsa/Hierophant.png"
+    },
+    "548": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Beatrix/Light%20Chaser.png",
+      "source": "Beatrix/Light Chaser.png"
+    },
+    "549": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Nana/Cyclone%20Clash.png",
+      "source": "Nana/Cyclone Clash.png"
+    },
+    "550": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Luo%20Yi/Elysium%20Guardian.png",
+      "source": "Luo Yi/Elysium Guardian.png"
+    },
+    "551": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aamon/Noble%20Crest.png",
+      "source": "Aamon/Noble Crest.png"
+    },
+    "552": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natan/Captain%20Chrono.png",
+      "source": "Natan/Captain Chrono.png"
+    },
+    "553": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Sun/Wicked%20Flames.png",
+      "source": "Sun/Wicked Flames.png"
+    },
+    "554": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fredrinn/Regal%20Renegade.png",
+      "source": "Fredrinn/Regal Renegade.png"
+    },
+    "555": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ling/Lord%20Shen.png",
+      "source": "Ling/Lord Shen.png"
+    },
+    "556": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Atlas/Space%20Mech.png",
+      "source": "Atlas/Space Mech.png"
+    },
+    "557": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aulus/Barren%20Pioneer.png",
+      "source": "Aulus/Barren Pioneer.png"
+    },
+    "558": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valentina/Archmagister.png",
+      "source": "Valentina/Archmagister.png"
+    },
+    "559": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Eudora/Cosmic%20Voyage.png",
+      "source": "Eudora/Cosmic Voyage.png"
+    },
+    "560": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kagura/Exorcist%20Kagura.png",
+      "source": "Kagura/Exorcist Kagura.png"
+    },
+    "561": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yu%20Zhong/Exorcist%20Yu%20Zhong.png",
+      "source": "Yu Zhong/Exorcist Yu Zhong.png"
+    },
+    "562": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chou/Libra%20Shiryu.png",
+      "source": "Chou/Libra Shiryu.png"
+    },
+    "563": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valir/Leo%20Ikki.png",
+      "source": "Valir/Leo Ikki.png"
+    },
+    "564": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Badang/Pegasus%20Seiya.png",
+      "source": "Badang/Pegasus Seiya.png"
+    },
+    "565": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Badang/Sagittarius%20Seiya.png",
+      "source": "Badang/Sagittarius Seiya.png"
+    },
+    "566": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chou/Dragon%20Shiryu.png",
+      "source": "Chou/Dragon Shiryu.png"
+    },
+    "567": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valir/Phoenix%20Ikki.png",
+      "source": "Valir/Phoenix Ikki.png"
+    },
+    "568": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cecilion/Crimson%20Wings.png",
+      "source": "Cecilion/Crimson Wings.png"
+    },
+    "569": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Joy/Feline%20Ranger.png",
+      "source": "Joy/Feline Ranger.png"
+    },
+    "570": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Masha/Rogue%20Talon.png",
+      "source": "Masha/Rogue Talon.png"
+    },
+    "571": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vexana/Circus%20Magician.png",
+      "source": "Vexana/Circus Magician.png"
+    },
+    "572": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Paquito/Fist%20of%20Light.png",
+      "source": "Paquito/Fist of Light.png"
+    },
+    "574": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lapu-Lapu/Son%20of%20the%20Wild.png",
+      "source": "Lapu-Lapu/Son of the Wild.png"
+    },
+    "575": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Barats/War%20Chief.png",
+      "source": "Barats/War Chief.png"
+    },
+    "576": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Miya/Doom%20Catalyst.png",
+      "source": "Miya/Doom Catalyst.png"
+    },
+    "577": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Akai/Kung%20Fu%20Panda.png",
+      "source": "Akai/Kung Fu Panda.png"
+    },
+    "578": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Bane/Underworld%20Outlaw.png",
+      "source": "Bane/Underworld Outlaw.png"
+    },
+    "579": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Bruno/Halo%20Striker.png",
+      "source": "Bruno/Halo Striker.png"
+    },
+    "580": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Bruno/Neymar%20Jr.png",
+      "source": "Bruno/Neymar Jr.png"
+    },
+    "581": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Clint/Crimson%20Blast.png",
+      "source": "Clint/Crimson Blast.png"
+    },
+    "582": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Rafaela/Angelic%20Sonata.png",
+      "source": "Rafaela/Angelic Sonata.png"
+    },
+    "583": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zilong/Empyrean%20Paladin.png",
+      "source": "Zilong/Empyrean Paladin.png"
+    },
+    "584": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zilong/Storm%20Rider.png",
+      "source": "Zilong/Storm Rider.png"
+    },
+    "585": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hayabusa/Techie%20Ninja.png",
+      "source": "Hayabusa/Techie Ninja.png"
+    },
+    "586": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Freya/S.A.B.E.R.%20Manhunter.png",
+      "source": "Freya/S.A.B.E.R. Manhunter.png"
+    },
+    "587": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Sun/Spring%20Blessings.png",
+      "source": "Sun/Spring Blessings.png"
+    },
+    "588": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ruby/Prismatic%20Plume.png",
+      "source": "Ruby/Prismatic Plume.png"
+    },
+    "589": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aamon/Cyber%20Assassin.png",
+      "source": "Aamon/Cyber Assassin.png"
+    },
+    "590": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chang%27e/New%20Moon.png",
+      "source": "Chang'e/New Moon.png"
+    },
+    "591": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Saber/Iron%20Hound.png",
+      "source": "Saber/Iron Hound.png"
+    },
+    "592": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Edith/Ancient%20Warden.png",
+      "source": "Edith/Ancient Warden.png"
+    },
+    "593": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Arlott/Wandering%20Spear.png",
+      "source": "Arlott/Wandering Spear.png"
+    },
+    "594": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fanny/Mikasa.png",
+      "source": "Fanny/Mikasa.png"
+    },
+    "595": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Leomord/Diavel%20V4%20Rider.png",
+      "source": "Leomord/Diavel V4 Rider.png"
+    },
+    "596": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Leomord/Shadow%20Knight.png",
+      "source": "Leomord/Shadow Knight.png"
+    },
+    "597": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lunox/Divine%20Goddess.png",
+      "source": "Lunox/Divine Goddess.png"
+    },
+    "598": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lunox/Nature%27s%20Harmony.png",
+      "source": "Lunox/Nature's Harmony.png"
+    },
+    "600": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kimmy/First%20Order%20Jet%20Trooper.png",
+      "source": "Kimmy/First Order Jet Trooper.png"
+    },
+    "601": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Thamuz/General%20Kai.png",
+      "source": "Thamuz/General Kai.png"
+    },
+    "602": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harith/Psychic.png",
+      "source": "Harith/Psychic.png"
+    },
+    "603": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vale/Blizzard%20Storm.png",
+      "source": "Vale/Blizzard Storm.png"
+    },
+    "604": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Khufra/Apophis.png",
+      "source": "Khufra/Apophis.png"
+    },
+    "605": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Granger/Exorcist%20Granger.png",
+      "source": "Granger/Exorcist Granger.png"
+    },
+    "606": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Granger/Hellbringer.png",
+      "source": "Granger/Hellbringer.png"
+    },
+    "607": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Granger/Megatron.png",
+      "source": "Granger/Megatron.png"
+    },
+    "608": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Terizla/Flare.png",
+      "source": "Terizla/Flare.png"
+    },
+    "609": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/X.Borg/Moto%20Drifter.png",
+      "source": "X.Borg/Moto Drifter.png"
+    },
+    "610": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yin/Eren.png",
+      "source": "Yin/Eren.png"
+    },
+    "611": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yin/Yuji%20Itadori.png",
+      "source": "Yin/Yuji Itadori.png"
+    },
+    "612": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Melissa/Nobara%20Kugisaki.png",
+      "source": "Melissa/Nobara Kugisaki.png"
+    },
+    "613": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Xavier/Satoru%20Gojo.png",
+      "source": "Xavier/Satoru Gojo.png"
+    },
+    "614": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Julian/Megumi%20Fushiguro.png",
+      "source": "Julian/Megumi Fushiguro.png"
+    },
+    "615": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Brody/Quantum%20Grip.png",
+      "source": "Brody/Quantum Grip.png"
+    },
+    "616": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aulus/War%20Lion.png",
+      "source": "Aulus/War Lion.png"
+    },
+    "617": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valentina/Cyber%20Agent.png",
+      "source": "Valentina/Cyber Agent.png"
+    },
+    "618": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natan/Tidal%20Lord.png",
+      "source": "Natan/Tidal Lord.png"
+    },
+    "619": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Floryn/Paw%20Power.png",
+      "source": "Floryn/Paw Power.png"
+    },
+    "620": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cyclops/Yokai%20Warlock.png",
+      "source": "Cyclops/Yokai Warlock.png"
+    },
+    "621": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Jawhead/Cyber%20Ranger.png",
+      "source": "Jawhead/Cyber Ranger.png"
+    },
+    "622": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Angela/Avatar%20of%20Time.png",
+      "source": "Angela/Avatar of Time.png"
+    },
+    "623": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gusion/Soul%20Revelation.png",
+      "source": "Gusion/Soul Revelation.png"
+    },
+    "624": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Uranus/Earthen%20Relic.png",
+      "source": "Uranus/Earthen Relic.png"
+    },
+    "625": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanabi/Moonlit%20Ninja.png",
+      "source": "Hanabi/Moonlit Ninja.png"
+    },
+    "626": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Bane/Soul%20Defiler.png",
+      "source": "Bane/Soul Defiler.png"
+    },
+    "627": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Moskov/Violet%20Spear.png",
+      "source": "Moskov/Violet Spear.png"
+    },
+    "628": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gloo/Jellyman.png",
+      "source": "Gloo/Jellyman.png"
+    },
+    "630": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Luo%20Yi/Oracle%20of%20Sol.png",
+      "source": "Luo Yi/Oracle of Sol.png"
+    },
+    "631": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Thamuz/Sanctified%20Flame.png",
+      "source": "Thamuz/Sanctified Flame.png"
+    },
+    "632": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Paquito/Blazing%20Tiger.png",
+      "source": "Paquito/Blazing Tiger.png"
+    },
+    "634": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alice/Jade%20Empress.png",
+      "source": "Alice/Jade Empress.png"
+    },
+    "635": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ixia/Shifting%20Sand.png",
+      "source": "Ixia/Shifting Sand.png"
+    },
+    "636": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Nolan/Voidwalker.png",
+      "source": "Nolan/Voidwalker.png"
+    },
+    "638": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yin/Eternal%20Guardian.png",
+      "source": "Yin/Eternal Guardian.png"
+    },
+    "639": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karrie/Ice%20Talon.png",
+      "source": "Karrie/Ice Talon.png"
+    },
+    "640": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kadita/Hydromancer.png",
+      "source": "Kadita/Hydromancer.png"
+    },
+    "641": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chou/ECHO.png",
+      "source": "Chou/ECHO.png"
+    },
+    "642": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alpha/Star%20Enforcer.png",
+      "source": "Alpha/Star Enforcer.png"
+    },
+    "643": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Atlas/Mecha%20Infernus.png",
+      "source": "Atlas/Mecha Infernus.png"
+    },
+    "644": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lylia/Neobeast%20Lylia.png",
+      "source": "Lylia/Neobeast Lylia.png"
+    },
+    "645": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fredrinn/Neobeast%20Fredrinn.png",
+      "source": "Fredrinn/Neobeast Fredrinn.png"
+    },
+    "646": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Beatrix/Vibrant%20Fiesta.png",
+      "source": "Beatrix/Vibrant Fiesta.png"
+    },
+    "647": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harley/Pulsar%20Prodigy.png",
+      "source": "Harley/Pulsar Prodigy.png"
+    },
+    "648": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Baxia/Black%20Tortoise.png",
+      "source": "Baxia/Black Tortoise.png"
+    },
+    "649": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kaja/Inferno%20Taskmaster.png",
+      "source": "Kaja/Inferno Taskmaster.png"
+    },
+    "650": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lolita/Genki%20Slam.png",
+      "source": "Lolita/Genki Slam.png"
+    },
+    "651": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Johnson/Starblazer.png",
+      "source": "Johnson/Starblazer.png"
+    },
+    "652": {
+      "src": "/assets/skins/652.webp",
+      "source": "Layla/Twilight Waltz.png"
+    },
+    "653": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vexana/The%20Sun%20Empress.png",
+      "source": "Vexana/The Sun Empress.png"
+    },
+    "654": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alpha/General%20Void.png",
+      "source": "Alpha/General Void.png"
+    },
+    "655": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ruby/Mecha%20Maiden.png",
+      "source": "Ruby/Mecha Maiden.png"
+    },
+    "656": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Moskov/Doom%20Incarnate.png",
+      "source": "Moskov/Doom Incarnate.png"
+    },
+    "657": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Johnson/Optimus%20Prime.png",
+      "source": "Johnson/Optimus Prime.png"
+    },
+    "658": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Irithel/Monster%20SP%20Rider.png",
+      "source": "Irithel/Monster SP Rider.png"
+    },
+    "659": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Benedetta/Panigale%20V4S%20Rider.png",
+      "source": "Benedetta/Panigale V4S Rider.png"
+    },
+    "660": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Arlott/Fury%20of%20the%20Deep.png",
+      "source": "Arlott/Fury of the Deep.png"
+    },
+    "661": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Pharsa/Neon%20Shingetsu.png",
+      "source": "Pharsa/Neon Shingetsu.png"
+    },
+    "662": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vale/Kannagi.png",
+      "source": "Vale/Kannagi.png"
+    },
+    "663": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Khufra/Gentleman%20Thief.png",
+      "source": "Khufra/Gentleman Thief.png"
+    },
+    "664": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Khufra/Iron%20Hook.png",
+      "source": "Khufra/Iron Hook.png"
+    },
+    "665": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Terizla/Rustwreck.png",
+      "source": "Terizla/Rustwreck.png"
+    },
+    "666": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Edith/Red%20Bastion.png",
+      "source": "Edith/Red Bastion.png"
+    },
+    "667": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Melissa/Nightwalker.png",
+      "source": "Melissa/Nightwalker.png"
+    },
+    "668": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gusion/Dimension%20Walker.png",
+      "source": "Gusion/Dimension Walker.png"
+    },
+    "669": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Popol%20and%20Kupa/Spirit%20of%20the%20Brush.png",
+      "source": "Popol and Kupa/Spirit of the Brush.png"
+    },
+    "670": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Minotaur/Dreadnought.png",
+      "source": "Minotaur/Dreadnought.png"
+    },
+    "671": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yu%20Zhong/Cosmic%20Dragon.png",
+      "source": "Yu Zhong/Cosmic Dragon.png"
+    },
+    "672": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yu%20Zhong/Dragon%27s%20Shade.png",
+      "source": "Yu Zhong/Dragon's Shade.png"
+    },
+    "673": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aamon/Vessel%20of%20Deceit.png",
+      "source": "Aamon/Vessel of Deceit.png"
+    },
+    "674": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valentina/Celestial%20Judicator.png",
+      "source": "Valentina/Celestial Judicator.png"
+    },
+    "675": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Nana/Mistbender%20Nana.png",
+      "source": "Nana/Mistbender Nana.png"
+    },
+    "676": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanabi/Vessel%20of%20Rage.png",
+      "source": "Hanabi/Vessel of Rage.png"
+    },
+    "677": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aldous/Mistbender%20Aldous.png",
+      "source": "Aldous/Mistbender Aldous.png"
+    },
+    "678": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yi%20Sun-shin/Surging%20Torrent.png",
+      "source": "Yi Sun-shin/Surging Torrent.png"
+    },
+    "679": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cici/Whimsical%20Carnival.png",
+      "source": "Cici/Whimsical Carnival.png"
+    },
+    "680": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Miya/Atomic%20Pop%20Miya.png",
+      "source": "Miya/Atomic Pop Miya.png"
+    },
+    "681": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Balmond/Infernal%20Warlord.png",
+      "source": "Balmond/Infernal Warlord.png"
+    },
+    "682": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Akai/Pumpkin%20Brawler.png",
+      "source": "Akai/Pumpkin Brawler.png"
+    },
+    "683": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Franco/King%20of%20Hell.png",
+      "source": "Franco/King of Hell.png"
+    },
+    "684": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Rafaela/Seraphic%20Selfie.png",
+      "source": "Rafaela/Seraphic Selfie.png"
+    },
+    "685": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Eudora/Atomic%20Pop%20Eudora.png",
+      "source": "Eudora/Atomic Pop Eudora.png"
+    },
+    "686": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kagura/Beyond%20the%20Clouds%20Kagura.png",
+      "source": "Kagura/Beyond the Clouds Kagura.png"
+    },
+    "687": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Esmeralda/The%20Foreseer.png",
+      "source": "Esmeralda/The Foreseer.png"
+    },
+    "688": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fredrinn/Jewel%20Connoisseur.png",
+      "source": "Fredrinn/Jewel Connoisseur.png"
+    },
+    "689": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Joy/Royal%20Protector.png",
+      "source": "Joy/Royal Protector.png"
+    },
+    "690": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Bruno/Street%20Hype.png",
+      "source": "Bruno/Street Hype.png"
+    },
+    "691": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gatotkaca/Tide%20Preserver.png",
+      "source": "Gatotkaca/Tide Preserver.png"
+    },
+    "692": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Freya/Galactic%20Vanquisher.png",
+      "source": "Freya/Galactic Vanquisher.png"
+    },
+    "693": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Martis/Levi.png",
+      "source": "Martis/Levi.png"
+    },
+    "694": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natan/Temporal%20Vortex.png",
+      "source": "Natan/Temporal Vortex.png"
+    },
+    "695": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Novaria/Sugar%20Glaze.png",
+      "source": "Novaria/Sugar Glaze.png"
+    },
+    "696": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zilong/Dragon%20of%20Prosperity.png",
+      "source": "Zilong/Dragon of Prosperity.png"
+    },
+    "697": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Granger/Alluring%20Enigma.png",
+      "source": "Granger/Alluring Enigma.png"
+    },
+    "698": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ling/Night%20Shade.png",
+      "source": "Ling/Night Shade.png"
+    },
+    "699": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Silvanna/Alluring%20Mystique.png",
+      "source": "Silvanna/Alluring Mystique.png"
+    },
+    "700": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ixia/Dynamic%20Streak.png",
+      "source": "Ixia/Dynamic Streak.png"
+    },
+    "701": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lapu-Lapu/Adlaw%27s%20Chosen.png",
+      "source": "Lapu-Lapu/Adlaw's Chosen.png"
+    },
+    "702": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lancelot/Swordmaster.png",
+      "source": "Lancelot/Swordmaster.png"
+    },
+    "703": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lesley/Deadeye%20Spectre.png",
+      "source": "Lesley/Deadeye Spectre.png"
+    },
+    "704": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chang%27e/Tech%20Tensai.png",
+      "source": "Chang'e/Tech Tensai.png"
+    },
+    "705": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Benedetta/Quantum%20Edge.png",
+      "source": "Benedetta/Quantum Edge.png"
+    },
+    "706": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Estes/Blacklist%20International.png",
+      "source": "Estes/Blacklist International.png"
+    },
+    "707": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Estes/SPARKLE%20Estes.png",
+      "source": "Estes/SPARKLE Estes.png"
+    },
+    "708": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Claude/Blazing%20Trace.png",
+      "source": "Claude/Blazing Trace.png"
+    },
+    "709": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Claude/Challenger%27s%20Spark.png",
+      "source": "Claude/Challenger's Spark.png"
+    },
+    "710": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Claude/Christmas%20Carnival.png",
+      "source": "Claude/Christmas Carnival.png"
+    },
+    "711": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Claude/Cosmic%20Blaze.png",
+      "source": "Claude/Cosmic Blaze.png"
+    },
+    "712": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Claude/Earth%27s%20Mightiest.png",
+      "source": "Claude/Earth's Mightiest.png"
+    },
+    "713": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Claude/Heart%20Aflame.png",
+      "source": "Claude/Heart Aflame.png"
+    },
+    "715": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Leomord/Triumph%20-%20Eagle.png",
+      "source": "Leomord/Triumph - Eagle.png"
+    },
+    "716": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Granger/Lightborn%20-%20Overrider.png",
+      "source": "Granger/Lightborn - Overrider.png"
+    },
+    "717": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Guinevere/Elegant%20Butterfly.png",
+      "source": "Guinevere/Elegant Butterfly.png"
+    },
+    "718": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Guinevere/Summer%20Breeze.png",
+      "source": "Guinevere/Summer Breeze.png"
+    },
+    "719": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Terizla/Flames%20of%20Judgement.png",
+      "source": "Terizla/Flames of Judgement.png"
+    },
+    "720": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Edith/Beyond%20the%20Clouds%20Edith.png",
+      "source": "Edith/Beyond the Clouds Edith.png"
+    },
+    "721": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Melissa/SPARKLE%20Melissa.png",
+      "source": "Melissa/SPARKLE Melissa.png"
+    },
+    "722": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chip/Nexus%20Engineer.png",
+      "source": "Chip/Nexus Engineer.png"
+    },
+    "723": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vexana/Twisted%20Fairytale.png",
+      "source": "Vexana/Twisted Fairytale.png"
+    },
+    "724": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Fredrinn/SPARKLE%20Fredrinn.png",
+      "source": "Fredrinn/SPARKLE Fredrinn.png"
+    },
+    "725": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lylia/Magitech%20Arsenal.png",
+      "source": "Lylia/Magitech Arsenal.png"
+    },
+    "726": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alpha/Mecha-King%20Perseus.png",
+      "source": "Alpha/Mecha-King Perseus.png"
+    },
+    "727": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Minsitthar/Sol%20Invictus.png",
+      "source": "Minsitthar/Sol Invictus.png"
+    },
+    "728": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vale/Concerto%20of%20Light.png",
+      "source": "Vale/Concerto of Light.png"
+    },
+    "729": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Moskov/Infernal%20Wrymlord.png",
+      "source": "Moskov/Infernal Wrymlord.png"
+    },
+    "730": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Jawhead/Samurai%20Mech.png",
+      "source": "Jawhead/Samurai Mech.png"
+    },
+    "731": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Angela/Floral%20Elf.png",
+      "source": "Angela/Floral Elf.png"
+    },
+    "732": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gusion/K%27.png",
+      "source": "Gusion/K'.png"
+    },
+    "733": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valir/Kyo%20Kusanagi.png",
+      "source": "Valir/Kyo Kusanagi.png"
+    },
+    "734": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Masha/Mai%20Shiranui.png",
+      "source": "Masha/Mai Shiranui.png"
+    },
+    "735": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Paquito/Terry%20Bogard.png",
+      "source": "Paquito/Terry Bogard.png"
+    },
+    "736": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lolita/Astro%20Mallet.png",
+      "source": "Lolita/Astro Mallet.png"
+    },
+    "737": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Nolan/Fashion%20Mogul.png",
+      "source": "Nolan/Fashion Mogul.png"
+    },
+    "738": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Khaleed/Wave%20Strider.png",
+      "source": "Khaleed/Wave Strider.png"
+    },
+    "739": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hayabusa/Exorcist%20Hayabusa.png",
+      "source": "Hayabusa/Exorcist Hayabusa.png"
+    },
+    "740": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Helcurt/Dream%20Prowler.png",
+      "source": "Helcurt/Dream Prowler.png"
+    },
+    "741": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ruby/Soul%20Reaper.png",
+      "source": "Ruby/Soul Reaper.png"
+    },
+    "742": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Valentina/Dark%20Nexus.png",
+      "source": "Valentina/Dark Nexus.png"
+    },
+    "743": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hylos/Bloodhoof%20Marauder.png",
+      "source": "Hylos/Bloodhoof Marauder.png"
+    },
+    "744": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Jawhead/Victory%20Loader.png",
+      "source": "Jawhead/Victory Loader.png"
+    },
+    "745": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zhuxin/Ethereal%20Serenity.png",
+      "source": "Zhuxin/Ethereal Serenity.png"
+    },
+    "746": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gusion/Desert%20Spider.png",
+      "source": "Gusion/Desert Spider.png"
+    },
+    "747": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Silvanna/Verdant%20Lancer.png",
+      "source": "Silvanna/Verdant Lancer.png"
+    },
+    "748": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kadita/Heart%20of%20the%20Sea.png",
+      "source": "Kadita/Heart of the Sea.png"
+    },
+    "749": {
+      "src": "/assets/skins/749.webp",
+      "source": "Layla/Paranormal Operative.png"
+    },
+    "750": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ling/Cosmo%20Guard.png",
+      "source": "Ling/Cosmo Guard.png"
+    },
+    "751": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Wanwan/Flying%20Swallow.png",
+      "source": "Wanwan/Flying Swallow.png"
+    },
+    "752": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Silvanna/Classroom%20Charm.png",
+      "source": "Silvanna/Classroom Charm.png"
+    },
+    "753": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Floryn/Yatai%20Waitress.png",
+      "source": "Floryn/Yatai Waitress.png"
+    },
+    "754": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Carmilla/Astral%20Arcana.png",
+      "source": "Carmilla/Astral Arcana.png"
+    },
+    "755": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natalia/Warrioress%20Paragon.png",
+      "source": "Natalia/Warrioress Paragon.png"
+    },
+    "756": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gatotkaca/Nutcracker%20Monarch.png",
+      "source": "Gatotkaca/Nutcracker Monarch.png"
+    },
+    "757": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alice/Darknet%20Temptress.png",
+      "source": "Alice/Darknet Temptress.png"
+    },
+    "758": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Franco/Quantum%20Vanguard.png",
+      "source": "Franco/Quantum Vanguard.png"
+    },
+    "759": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gord/Cyber%20Hacker.png",
+      "source": "Gord/Cyber Hacker.png"
+    },
+    "760": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Odette/Wisdom%20of%20the%20Stars.png",
+      "source": "Odette/Wisdom of the Stars.png"
+    },
+    "761": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aulus/Ironmane%20Reaver.png",
+      "source": "Aulus/Ironmane Reaver.png"
+    },
+    "762": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Brody/APBren.png",
+      "source": "Brody/APBren.png"
+    },
+    "763": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Paquito/Fist%20of%20Glory.png",
+      "source": "Paquito/Fist of Glory.png"
+    },
+    "764": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Suyou/Venerated%20Vigilance.png",
+      "source": "Suyou/Venerated Vigilance.png"
+    },
+    "765": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Akai/Marvelous%20Maestro.png",
+      "source": "Akai/Marvelous Maestro.png"
+    },
+    "766": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Diggie/Underwood%20Steward.png",
+      "source": "Diggie/Underwood Steward.png"
+    },
+    "767": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zhask/Death%27s%20Shadow.png",
+      "source": "Zhask/Death's Shadow.png"
+    },
+    "768": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kagura/Jade%20Blossom.png",
+      "source": "Kagura/Jade Blossom.png"
+    },
+    "769": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Tigreal/Pasha%20of%20Justice.png",
+      "source": "Tigreal/Pasha of Justice.png"
+    },
+    "770": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Martis/Darkwater%20Terror.png",
+      "source": "Martis/Darkwater Terror.png"
+    },
+    "771": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lolita/Starwatcher.png",
+      "source": "Lolita/Starwatcher.png"
+    },
+    "772": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Baxia/Dauntless%20Shield.png",
+      "source": "Baxia/Dauntless Shield.png"
+    },
+    "773": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Nolan/The%20Navigator.png",
+      "source": "Nolan/The Navigator.png"
+    },
+    "774": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Xavier/Beyond%20the%20Clouds%20Xavier.png",
+      "source": "Xavier/Beyond the Clouds Xavier.png"
+    },
+    "775": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Xavier/Hardlight%20Artificer.png",
+      "source": "Xavier/Hardlight Artificer.png"
+    },
+    "776": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Clint/Dragon%27s%20Maw.png",
+      "source": "Clint/Dragon's Maw.png"
+    },
+    "777": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kimmy/High%20Seas%20Cadet.png",
+      "source": "Kimmy/High Seas Cadet.png"
+    },
+    "778": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Minsitthar/Symbol%20of%20Valor.png",
+      "source": "Minsitthar/Symbol of Valor.png"
+    },
+    "780": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Clint/Captain%20of%20the%20Reefs.png",
+      "source": "Clint/Captain of the Reefs.png"
+    },
+    "781": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harley/Star%20Magician.png",
+      "source": "Harley/Star Magician.png"
+    },
+    "782": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lancelot/Marques%20of%20Blades.png",
+      "source": "Lancelot/Marques of Blades.png"
+    },
+    "783": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Chip/Badlands%20Hiatus.png",
+      "source": "Chip/Badlands Hiatus.png"
+    },
+    "784": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zhuxin/Emberwisp%20Mystic.png",
+      "source": "Zhuxin/Emberwisp Mystic.png"
+    },
+    "785": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Aurora/Veil%20of%20the%20Celestials.png",
+      "source": "Aurora/Veil of the Celestials.png"
+    },
+    "786": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Balmond/Razor%20Edge.png",
+      "source": "Balmond/Razor Edge.png"
+    },
+    "787": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Julian/Kurapika.png",
+      "source": "Julian/Kurapika.png"
+    },
+    "788": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harith/Killua.png",
+      "source": "Harith/Killua.png"
+    },
+    "789": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Dyrroth/Gon.png",
+      "source": "Dyrroth/Gon.png"
+    },
+    "790": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cecilion/Hisoka.png",
+      "source": "Cecilion/Hisoka.png"
+    },
+    "791": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Rafaela/Bloom%20of%20Abundance.png",
+      "source": "Rafaela/Bloom of Abundance.png"
+    },
+    "792": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Johnson/Sovereign%20of%20Realms.png",
+      "source": "Johnson/Sovereign of Realms.png"
+    },
+    "793": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Yi%20Sun-shin/Azure%20Sentry.png",
+      "source": "Yi Sun-shin/Azure Sentry.png"
+    },
+    "794": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Irithel/Checkered%20Knight.png",
+      "source": "Irithel/Checkered Knight.png"
+    },
+    "795": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kimmy/Rising%20Nova.png",
+      "source": "Kimmy/Rising Nova.png"
+    },
+    "796": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harith/Christmas%20Carnival.png",
+      "source": "Harith/Christmas Carnival.png"
+    },
+    "797": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Terizla/Soulblight%20Tyrant.png",
+      "source": "Terizla/Soulblight Tyrant.png"
+    },
+    "798": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Karrie/Breath%20of%20Naraka.png",
+      "source": "Karrie/Breath of Naraka.png"
+    },
+    "799": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lancelot/Guardian%20of%20the%20Shrine.png",
+      "source": "Lancelot/Guardian of the Shrine.png"
+    },
+    "800": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lesley/Duchess%20of%20Tides.png",
+      "source": "Lesley/Duchess of Tides.png"
+    },
+    "801": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Angela/Strings%20of%20Fate.png",
+      "source": "Angela/Strings of Fate.png"
+    },
+    "802": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Barats/Sunken%20Predator.png",
+      "source": "Barats/Sunken Predator.png"
+    },
+    "803": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/X.Borg/Pecados%20Rioter.png",
+      "source": "X.Borg/Pecados Rioter.png"
+    },
+    "804": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ruby/Crescent%20Dervish.png",
+      "source": "Ruby/Crescent Dervish.png"
+    },
+    "805": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ruby/Neon%20Edge.png",
+      "source": "Ruby/Neon Edge.png"
+    },
+    "806": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Cici/Circus%20Reverie.png",
+      "source": "Cici/Circus Reverie.png"
+    },
+    "807": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Mathilda/Dreambound%20Pixie.png",
+      "source": "Mathilda/Dreambound Pixie.png"
+    },
+    "808": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Floryn/Melody%20of%20Light.png",
+      "source": "Floryn/Melody of Light.png"
+    },
+    "809": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Selena/Curse%20of%20Cinder.png",
+      "source": "Selena/Curse of Cinder.png"
+    },
+    "810": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alucard/Demon%27s%20Bane.png",
+      "source": "Alucard/Demon's Bane.png"
+    },
+    "811": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Benedetta/Phantom%20Mirage.png",
+      "source": "Benedetta/Phantom Mirage.png"
+    },
+    "812": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Khaleed/Desert%20Salamander.png",
+      "source": "Khaleed/Desert Salamander.png"
+    },
+    "814": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Alpha/Revenant%20of%20Roses.png",
+      "source": "Alpha/Revenant of Roses.png"
+    },
+    "815": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Joy/Exostar%20Scout.png",
+      "source": "Joy/Exostar Scout.png"
+    },
+    "816": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Claude/Mecha%20Dragon.png",
+      "source": "Claude/Mecha Dragon.png"
+    },
+    "817": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lunox/Butterfly%20Seraphim.png",
+      "source": "Lunox/Butterfly Seraphim.png"
+    },
+    "818": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Belerick/Arbiter%20of%20Stars.png",
+      "source": "Belerick/Arbiter of Stars.png"
+    },
+    "819": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kimmy/Frost%20Wing.png",
+      "source": "Kimmy/Frost Wing.png"
+    },
+    "820": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Thamuz/Abyssal%20Reaper.png",
+      "source": "Thamuz/Abyssal Reaper.png"
+    },
+    "821": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Harith/EVOS%20Legends.png",
+      "source": "Harith/EVOS Legends.png"
+    },
+    "822": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vale/Keeper%20of%20the%20Winds.png",
+      "source": "Vale/Keeper of the Winds.png"
+    },
+    "823": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Guinevere/Lady%20Crane.png",
+      "source": "Guinevere/Lady Crane.png"
+    },
+    "824": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Esmeralda/Astral%20Muse.png",
+      "source": "Esmeralda/Astral Muse.png"
+    },
+    "825": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/X.Borg/Bumblebee.png",
+      "source": "X.Borg/Bumblebee.png"
+    },
+    "826": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Edith/Prismatic%20Sentinel.png",
+      "source": "Edith/Prismatic Sentinel.png"
+    },
+    "827": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Melissa/Umbra%20Bloom.png",
+      "source": "Melissa/Umbra Bloom.png"
+    },
+    "828": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Pharsa/Neobeast%20Pharsa.png",
+      "source": "Pharsa/Neobeast Pharsa.png"
+    },
+    "829": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ling/Neobeast%20Ling.png",
+      "source": "Ling/Neobeast Ling.png"
+    },
+    "830": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Brody/Neobeast%20Brody.png",
+      "source": "Brody/Neobeast Brody.png"
+    },
+    "832": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Miya/Nightowl%20Huntress.png",
+      "source": "Miya/Nightowl Huntress.png"
+    },
+    "833": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hayabusa/Kakashi%20Hatake.png",
+      "source": "Hayabusa/Kakashi Hatake.png"
+    },
+    "834": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Vale/Gaara.png",
+      "source": "Vale/Gaara.png"
+    },
+    "835": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Suyou/Sasuke%20Uchiha.png",
+      "source": "Suyou/Sasuke Uchiha.png"
+    },
+    "836": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lukas/Naruto%20Uzumaki.png",
+      "source": "Lukas/Naruto Uzumaki.png"
+    },
+    "837": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kalea/Sakura%20Haruno.png",
+      "source": "Kalea/Sakura Haruno.png"
+    },
+    "838": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Estes/Arcane%20Magistrate.png",
+      "source": "Estes/Arcane Magistrate.png"
+    },
+    "839": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Gord/Imperator%20Vitalis.png",
+      "source": "Gord/Imperator Vitalis.png"
+    },
+    "840": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Leomord/Nightmare%20Count.png",
+      "source": "Leomord/Nightmare Count.png"
+    },
+    "841": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Silvanna/Meowkin%20Warden.png",
+      "source": "Silvanna/Meowkin Warden.png"
+    },
+    "843": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Faramis/Enigmatic%20Wayfarer.png",
+      "source": "Faramis/Enigmatic Wayfarer.png"
+    },
+    "844": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Zetian/Heavenly%20Splendor.png",
+      "source": "Zetian/Heavenly Splendor.png"
+    },
+    "845": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Popol%20and%20Kupa/Proto%20Hunter.png",
+      "source": "Popol and Kupa/Proto Hunter.png"
+    },
+    "846": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Phoveus/Matrix%20Maverick.png",
+      "source": "Phoveus/Matrix Maverick.png"
+    },
+    "847": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanzo/Soulfire%20Netherlord.png",
+      "source": "Hanzo/Soulfire Netherlord.png"
+    },
+    "848": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lesley/Meowkin%20Hunter.png",
+      "source": "Lesley/Meowkin Hunter.png"
+    },
+    "849": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Jawhead/Proto%20Guardian.png",
+      "source": "Jawhead/Proto Guardian.png"
+    },
+    "850": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Wanwan/Summer%20Splash.png",
+      "source": "Wanwan/Summer Splash.png"
+    },
+    "851": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Luo%20Yi/Starborne%20Matron.png",
+      "source": "Luo Yi/Starborne Matron.png"
+    },
+    "852": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natan/Archon%20of%20Knowledge.png",
+      "source": "Natan/Archon of Knowledge.png"
+    },
+    "853": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Kadita/Maiden%20of%20the%20Tide.png",
+      "source": "Kadita/Maiden of the Tide.png"
+    },
+    "854": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Julian/Meowkin%20Tracker.png",
+      "source": "Julian/Meowkin Tracker.png"
+    },
+    "855": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Roger/Invoker%27s%20Restraint.png",
+      "source": "Roger/Invoker's Restraint.png"
+    },
+    "856": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/X.Borg/Invoker%27s%20Flame.png",
+      "source": "X.Borg/Invoker's Flame.png"
+    },
+    "857": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Ixia/Invoker%27s%20Command.png",
+      "source": "Ixia/Invoker's Command.png"
+    },
+    "858": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Obsidia/Undying%20Remnants.png",
+      "source": "Obsidia/Undying Remnants.png"
+    },
+    "860": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Arlott/Aeon%20of%20Twilight.png",
+      "source": "Arlott/Aeon of Twilight.png"
+    },
+    "862": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Odette/Song%20of%20Devotion.png",
+      "source": "Odette/Song of Devotion.png"
+    },
+    "863": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lancelot/Blade%20of%20Devotion.png",
+      "source": "Lancelot/Blade of Devotion.png"
+    },
+    "865": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Atlas/Sunken%20Curse.png",
+      "source": "Atlas/Sunken Curse.png"
+    },
+    "866": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Eudora/Midnight%27s%20Allure.png",
+      "source": "Eudora/Midnight's Allure.png"
+    },
+    "867": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Leomord/Auspicious%20Blaze.png",
+      "source": "Leomord/Auspicious Blaze.png"
+    },
+    "868": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanabi/Neonscape%20Icon.png",
+      "source": "Hanabi/Neonscape Icon.png"
+    },
+    "869": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Hanabi/Twin%20Crescent.png",
+      "source": "Hanabi/Twin Crescent.png"
+    },
+    "870": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Franco/Captain%20of%20the%20Lost.png",
+      "source": "Franco/Captain of the Lost.png"
+    },
+    "872": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Natan/Sanguine%20Steward.png",
+      "source": "Natan/Sanguine Steward.png"
+    },
+    "873": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Lylia/Phantasmal%20Revelry.png",
+      "source": "Lylia/Phantasmal Revelry.png"
+    },
+    "874": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Marcel/Split%20Shadows.png",
+      "source": "Marcel/Split Shadows.png"
+    },
+    "881": {
+      "src": "https://raw.githubusercontent.com/Sparkies01/Splash/main/Minotaur/Nether%20Overseer.png",
+      "source": "Minotaur/Nether Overseer.png"
+    }
+  },
+  "credits": "Mobile Legends: Bang Bang artwork belongs to MOONTON. Retrieved from Sparkies01/Splash for an educational local project."
+}
